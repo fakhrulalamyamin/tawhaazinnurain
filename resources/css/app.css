@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.primary-color {
+    @apply
+        text-[#328AF2]
+
+}
+
+.primary-button {
+    @apply
+        inline-block
+        mt-8 px-8 py-4
+        text-xl bg-[#328AF2] text-white font-normal rounded
+        hover:bg-[#328AF2]/80 hover:shadow-md
+        duration-300
+        transition
+}
+
+.primary-form-button {
+    @apply
+        inline-block
+        mt-8 px-8 py-2
+        text-xl bg-white text-black font-normal
+        border rounded-l
+        hover:text-white hover:bg-transparent hover:border-black hover:shadow-md
+        duration-300
+        transition
+}
+
+.secondary-form-button {
+    @apply
+        inline-block
+        mt-8 -ml-1 px-8 py-2
+        text-xl  text-black font-normal
+        border border-gray-100 rounded-r
+        hover:text-black hover:bg-white hover:border-white hover:shadow-md
+        duration-300
+        transition
+}
+
+.main-logo {
+    @apply
+        absolute
+        left-0
+}
