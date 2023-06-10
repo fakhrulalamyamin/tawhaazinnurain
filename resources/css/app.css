@@ -180,6 +180,7 @@
     @apply
         w-5/12 h-36
         flex items-center justify-center
+        text-xl text-white font-poppins font-medium
         bg-red-400
         rounded
 }
@@ -187,7 +188,8 @@
 .course-card-details {
     @apply
         w-full h-full
-        py-4
+        flex flex-col justify-between
+        pr-8 py-4
 }
 
 .course-card-title {
@@ -198,6 +200,12 @@
 .course-card-span {
     @apply
         flex items-center justify-between
+
+}
+
+.course-card-span-class {
+    @apply
+        flex items-center gap-2
         text-base font-poppins font-medium
 }
 /* Course box end */

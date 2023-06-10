@@ -198,16 +198,21 @@
             <div class="course-responsive">
                 <div class="course-card">
                     <div class="course-card-image">
-                        Image
+                        <span>আকীদা</span>
                     </div>
                     <div class="course-card-details">
                         <div class="course-card-title">
                             বেসিক ইসলামি আকীদা
                         </div>
-                        <div class="coruse-card-span">
-                            <span>
+                        <div class="course-card-span">
+                            <span class="course-card-span-class">
                                 @include('components.icons.folder')
-                                22 ক্লাস
+                                ২২ ক্লাস
+                            </span>
+
+                            <span class="course-card-span-class">
+                                @include('components.icons.folder')
+                                ৬+ ঘন্টা
                             </span>
                         </div>
                     </div>
