@@ -12,8 +12,13 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                'siliguri': ['Hind Siliguri'],
+                'poppins': ['Poppins'],
             },
+
+            colors: {
+                'primary': ['#328AF2'],
+            }
         },
     },
 

@@ -1,41 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.primary-color {
-    @apply
-        text-[#328AF2]
-
-}
 
 .primary-button {
     @apply
         inline-block
         mt-8 px-8 py-4
-        text-xl bg-[#328AF2] text-white font-normal rounded
-        hover:bg-[#328AF2]/80 hover:shadow-md
-        duration-300
-        transition
-}
-
-.primary-form-button {
-    @apply
-        inline-block
-        mt-8 px-8 py-2
-        text-xl bg-white text-black font-normal
-        border rounded-l
-        hover:text-white hover:bg-transparent hover:border-black hover:shadow-md
-        duration-300
-        transition
-}
-
-.secondary-form-button {
-    @apply
-        inline-block
-        mt-8 -ml-1 px-8 py-2
-        text-xl  text-black font-normal
-        border border-gray-100 rounded-r
-        hover:text-black hover:bg-white hover:border-white hover:shadow-md
+        text-xl bg-primary-0 text-white font-normal font-siliguri rounded
+        hover:bg-primary-0/80 hover:shadow-md
         duration-300
         transition
 }
@@ -44,4 +19,185 @@
     @apply
         absolute
         left-0
+        max-w-[20px]
 }
+
+.navbar-link {
+    @apply
+        mr-4
+        text-xl font-normal text-primary-0
+        hover:text-primary-0/80
+}
+
+
+.login-form {
+    @apply
+        max-w-[427px] h-[387px]
+        px-16 py-4
+        bg-primary-0
+        rounded-md shadow-lg
+}
+
+.hero-image {
+    @apply
+        absolute
+        max-w-[1440px] overflow-hidden
+        bg-cover bg-center bg-no-repeat
+        left-0 top-0 -z-10
+}
+
+/* Hero Styling */
+.hero {
+    @apply
+        text-center
+}
+
+.hero-heading-primary {
+    @apply
+        mb-4 text-5xl font-bold text-white font-siliguri leading-snug
+        lg:text-[70px]
+}
+
+.hero-heading-primary-span {
+    @apply
+        text-xl font-normal text-white font-siliguri
+}
+
+
+/* All Course Styling */
+.all-course {
+    @apply
+        lg:flex lg:flex-row lg:text-left
+
+        py-16
+        text-center
+}
+
+.all-course-text {
+    @apply
+    lg:w-[44rem] lg:border-l-4 lg:border-primary-0
+    mb-4
+    space-y-6
+}
+
+.all-course-text-border {
+    @apply
+        lg:hidden
+        w-64 h-1 mx-auto
+        bg-primary-0
+}
+
+.all-course-text-heading {
+    @apply
+        lg:pl-8
+        text-3xl font-medium text-black font-siliguri
+}
+
+.all-course-text-span {
+    @apply
+        text-primary-0
+}
+
+.all-course-btn {
+    @apply
+        px-6 py-2
+        text-white text-[22px] font-normal font-siliguri
+        bg-primary-0
+        border border-primary-0 rounded
+        hover:text-primary-0 hover:bg-transparent hover:border hover:border-primary-0 hover:shadow-md
+        transition-all duration-500
+
+}
+
+/* Course Details Styling */
+.course-details {
+    @apply
+        w-full
+        pb-16
+
+}
+.course-details-card {
+    @apply
+        w-full
+        bg-gray-100
+        rounded
+        hover:shadow-md hover:duration-500 transition
+}
+.course-details-card-box {
+    @apply
+        w-full h-56
+        bg-blue-500
+        rounded
+}
+.course-details-card-box-image {
+
+
+}
+.course-details-card-box-span {
+    @apply
+        w-full h-full flex items-center justify-center
+        text-center text-2xl text-white font-poppins font-medium leading-8
+}
+
+.course-details-card-counter {
+    @apply
+        flex items-center justify-between
+        px-6 py-4
+        text-lg text-black font-medium font-poppins leading-6
+}
+
+.course-details-card-counter-courses {
+    @apply
+        flex flex-col items-center
+}
+
+.course-details-card-counter-videos {
+    @apply
+        flex flex-col items-center
+}
+
+/* Course box */
+.course-container {
+    @apply
+        container px-6 pb-16
+}
+
+.course-responsive {
+    @apply
+        w-full
+}
+
+.course-card {
+    @apply
+        flex
+        w-full h-36
+        space-x-8
+        bg-gray-100
+        rounded
+}
+
+.course-card-image {
+    @apply
+        w-5/12 h-36
+        flex items-center justify-center
+        bg-red-400
+        rounded
+}
+
+.course-card-details {
+    @apply
+        w-full h-full
+        py-4
+}
+
+.course-card-title {
+    @apply
+        text-2xl font-poppins font-medium
+}
+
+.course-card-span {
+    @apply
+        flex items-center justify-between
+        text-base font-poppins font-medium
+}
+/* Course box end */
