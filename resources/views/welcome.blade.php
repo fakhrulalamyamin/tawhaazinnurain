@@ -211,7 +211,73 @@
                             </span>
 
                             <span class="course-card-span-class">
+                                @include('components.icons.clock')
+                                ৬+ ঘন্টা
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-card-image">
+                        <span>আকীদা</span>
+                    </div>
+                    <div class="course-card-details">
+                        <div class="course-card-title">
+                            বেসিক ইসলামি আকীদা
+                        </div>
+                        <div class="course-card-span">
+                            <span class="course-card-span-class">
                                 @include('components.icons.folder')
+                                ২২ ক্লাস
+                            </span>
+
+                            <span class="course-card-span-class">
+                                @include('components.icons.clock')
+                                ৬+ ঘন্টা
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-card-image">
+                        <span>আকীদা</span>
+                    </div>
+                    <div class="course-card-details">
+                        <div class="course-card-title">
+                            বেসিক ইসলামি আকীদা
+                        </div>
+                        <div class="course-card-span">
+                            <span class="course-card-span-class">
+                                @include('components.icons.folder')
+                                ২২ ক্লাস
+                            </span>
+
+                            <span class="course-card-span-class">
+                                @include('components.icons.clock')
+                                ৬+ ঘন্টা
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-card-image">
+                        <span>আকীদা</span>
+                    </div>
+                    <div class="course-card-details">
+                        <div class="course-card-title">
+                            বেসিক ইসলামি আকীদা
+                        </div>
+                        <div class="course-card-span">
+                            <span class="course-card-span-class">
+                                @include('components.icons.folder')
+                                ২২ ক্লাস
+                            </span>
+
+                            <span class="course-card-span-class">
+                                @include('components.icons.clock')
                                 ৬+ ঘন্টা
                             </span>
                         </div>
