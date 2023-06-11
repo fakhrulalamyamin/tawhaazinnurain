@@ -18,7 +18,11 @@ export default {
 
             colors: {
                 'primary': ['#328AF2'],
-            }
+            },
+
+            rotate: {
+                'default': '-5deg',
+            },
         },
     },
 

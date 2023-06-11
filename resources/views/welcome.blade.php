@@ -9,6 +9,8 @@
 
     </head>
     <body class="antialiased">
+
+        <!-- Hero Start -->
         <div class="relative max-w-7xl mx-auto min-h-[786px] bg-center overflow-hidden">
             <img src="/images/Taw Haa Zin Nurain Hero Image.jpg" alt="" class="hero-image">
             <div class="container mx-auto">
@@ -59,9 +61,10 @@
                 </div>
             </div>
         </div>
+        <!-- Hero Start -->
 
         <!-- All Course Start -->
-        <div class="container px-6">
+        <div class="default-container">
             <div class="all-course">
                 <div class="all-course-text">
                     <div class="all-course-text-border"></div>
@@ -76,92 +79,92 @@
         </div>
         <!-- All Course End -->
 
-        <!-- All Course Details End -->
-        <div class="container px-6">
-            <div class="course-details">
+        <!-- All Course Semester Start -->
+        <div class="default-container">
+            <div class="course-semester">
                 <a href="#" class="space-y-8">
-                    <div class="course-details-card">
-                        <div class="course-details-card-box">
-                            <img src="" alt="" class="course-details-card-box-image">
-                            <div class="course-details-card-box-span">
+                    <div class="course-semester-card">
+                        <div class="course-semester-card-box">
+                            <img src="" alt="" class="course-semester-card-box-image">
+                            <div class="course-semester-card-box-span">
                                 Semester One
                                 <br>
                                 The Essentials
                             </div>
                         </div>
 
-                        <div class="course-details-card-counter">
-                            <div class="course-details-card-counter-courses">
+                        <div class="course-semester-card-counter">
+                            <div class="course-semester-card-counter-courses">
                                 <span>100</span>
                                 <span>Courses</span>
                             </div>
-                            <div class="course-details-card-counter-videos">
+                            <div class="course-semester-card-counter-videos">
                                 <span>700+</span>
                                 <span>Videos</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="course-details-card">
-                        <div class="course-details-card-box">
-                            <img src="" alt="" class="course-details-card-box-image">
-                            <div class="course-details-card-box-span">
+                    <div class="course-semester-card">
+                        <div class="course-semester-card-box">
+                            <img src="" alt="" class="course-semester-card-box-image">
+                            <div class="course-semester-card-box-span">
                                 Semester Two
                                 <br>
                                 Foundations
                             </div>
                         </div>
 
-                        <div class="course-details-card-counter">
-                            <div class="course-details-card-counter-courses">
+                        <div class="course-semester-card-counter">
+                            <div class="course-semester-card-counter-courses">
                                 <span>100</span>
                                 <span>Courses</span>
                             </div>
-                            <div class="course-details-card-counter-videos">
+                            <div class="course-semester-card-counter-videos">
                                 <span>700+</span>
                                 <span>Videos</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="course-details-card">
-                        <div class="course-details-card-box">
-                            <img src="" alt="" class="course-details-card-box-image">
-                            <div class="course-details-card-box-span">
+                    <div class="course-semester-card">
+                        <div class="course-semester-card-box">
+                            <img src="" alt="" class="course-semester-card-box-image">
+                            <div class="course-semester-card-box-span">
                                 Semester Three
                                 <br>
                                 Intermediate
                             </div>
                         </div>
 
-                        <div class="course-details-card-counter">
-                            <div class="course-details-card-counter-courses">
+                        <div class="course-semester-card-counter">
+                            <div class="course-semester-card-counter-courses">
                                 <span>100</span>
                                 <span>Courses</span>
                             </div>
-                            <div class="course-details-card-counter-videos">
+                            <div class="course-semester-card-counter-videos">
                                 <span>700+</span>
                                 <span>Videos</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="course-details-card">
-                        <div class="course-details-card-box">
-                            <img src="" alt="" class="course-details-card-box-image">
-                            <div class="course-details-card-box-span">
+                    <div class="course-semester-card">
+                        <div class="course-semester-card-box">
+                            <img src="" alt="" class="course-semester-card-box-image">
+                            <div class="course-semester-card-box-span">
                                 Semester Four
                                 <br>
                                 Advanced
                             </div>
                         </div>
 
-                        <div class="course-details-card-counter">
-                            <div class="course-details-card-counter-courses">
+                        <div class="course-semester-card-counter">
+                            <div class="course-semester-card-counter-courses">
                                 <span>100</span>
                                 <span>Courses</span>
                             </div>
-                            <div class="course-details-card-counter-videos">
+                            <div class="course-semester-card-counter-videos">
                                 <span>700+</span>
                                 <span>Videos</span>
                             </div>
@@ -170,10 +173,10 @@
                 </a>
             </div>
         </div>
-        <!-- All Course Details End -->
+        <!-- All Course Semester End -->
 
-        <!-- All Course End -->
-        <div class="container px-6">
+        <!-- All Course Start -->
+        <div class="default-container">
             <div class="all-course">
                 <div class="all-course-text">
                     <div class="all-course-text-border"></div>
@@ -193,104 +196,270 @@
         </div>
         <!-- All Course End -->
 
-        <!-- All Course End -->
-        <div class="course-container">
-            <div class="course-responsive">
-                <div class="course-card">
-                    <div class="course-card-image">
-                        <span>আকীদা</span>
-                    </div>
-                    <div class="course-card-details">
-                        <div class="course-card-title">
-                            বেসিক ইসলামি আকীদা
-                        </div>
-                        <div class="course-card-span">
-                            <span class="course-card-span-class">
-                                @include('components.icons.folder')
-                                ২২ ক্লাস
-                            </span>
+        <!-- Akida Coruse Start Start -->
+        <div class="default-container">
+            <div class="course-akida-responsive">
 
-                            <span class="course-card-span-class">
-                                @include('components.icons.clock')
-                                ৬+ ঘন্টা
-                            </span>
+                <a href="#">
+                    <div class="course-akida-card">
+                        <div class="course-akida-card-image">
+                            <span>আকীদা</span>
                         </div>
-                    </div>
-                </div>
+                        <div class="course-akida-card-details">
+                            <div class="course-akida-card-title">
+                                বেসিক ইসলামি আকীদা
+                            </div>
+                            <div class="course-akida-card-span">
+                                <span class="course-akida-card-span-class">
+                                    @include('components.icons.folder')
+                                    ২২ ক্লাস
+                                </span>
 
-                <div class="course-card">
-                    <div class="course-card-image">
-                        <span>আকীদা</span>
-                    </div>
-                    <div class="course-card-details">
-                        <div class="course-card-title">
-                            বেসিক ইসলামি আকীদা
+                                <span class="course-akida-card-span-class">
+                                    @include('components.icons.clock')
+                                    ৬+ ঘন্টা
+                                </span>
+                            </div>
                         </div>
-                        <div class="course-card-span">
-                            <span class="course-card-span-class">
-                                @include('components.icons.folder')
-                                ২২ ক্লাস
-                            </span>
+                    </div>
+                </a>
 
-                            <span class="course-card-span-class">
-                                @include('components.icons.clock')
-                                ৬+ ঘন্টা
-                            </span>
+                <a href="#">
+                    <div class="course-akida-card">
+                        <div class="course-akida-card-image">
+                            <span>আকীদা</span>
                         </div>
-                    </div>
-                </div>
+                        <div class="course-akida-card-details">
+                            <div class="course-akida-card-title">
+                                বেসিক ইসলামি আকীদা
+                            </div>
+                            <div class="course-akida-card-span">
+                                <span class="course-akida-card-span-class">
+                                    @include('components.icons.folder')
+                                    ২২ ক্লাস
+                                </span>
 
-                <div class="course-card">
-                    <div class="course-card-image">
-                        <span>আকীদা</span>
-                    </div>
-                    <div class="course-card-details">
-                        <div class="course-card-title">
-                            বেসিক ইসলামি আকীদা
+                                <span class="course-akida-card-span-class">
+                                    @include('components.icons.clock')
+                                    ৬+ ঘন্টা
+                                </span>
+                            </div>
                         </div>
-                        <div class="course-card-span">
-                            <span class="course-card-span-class">
-                                @include('components.icons.folder')
-                                ২২ ক্লাস
-                            </span>
+                    </div>
+                </a>
 
-                            <span class="course-card-span-class">
-                                @include('components.icons.clock')
-                                ৬+ ঘন্টা
-                            </span>
+                <a href="#">
+                    <div class="course-akida-card">
+                        <div class="course-akida-card-image">
+                            <span>আকীদা</span>
                         </div>
-                    </div>
-                </div>
+                        <div class="course-akida-card-details">
+                            <div class="course-akida-card-title">
+                                বেসিক ইসলামি আকীদা
+                            </div>
+                            <div class="course-akida-card-span">
+                                <span class="course-akida-card-span-class">
+                                    @include('components.icons.folder')
+                                    ২২ ক্লাস
+                                </span>
 
-                <div class="course-card">
-                    <div class="course-card-image">
-                        <span>আকীদা</span>
-                    </div>
-                    <div class="course-card-details">
-                        <div class="course-card-title">
-                            বেসিক ইসলামি আকীদা
+                                <span class="course-akida-card-span-class">
+                                    @include('components.icons.clock')
+                                    ৬+ ঘন্টা
+                                </span>
+                            </div>
                         </div>
-                        <div class="course-card-span">
-                            <span class="course-card-span-class">
-                                @include('components.icons.folder')
-                                ২২ ক্লাস
-                            </span>
+                    </div>
+                </a>
 
-                            <span class="course-card-span-class">
-                                @include('components.icons.clock')
-                                ৬+ ঘন্টা
-                            </span>
+                <a href="#">
+                    <div class="course-akida-card">
+                        <div class="course-akida-card-image">
+                            <span>আকীদা</span>
+                        </div>
+                        <div class="course-akida-card-details">
+                            <div class="course-akida-card-title">
+                                বেসিক ইসলামি আকীদা
+                            </div>
+                            <div class="course-akida-card-span">
+                                <span class="course-akida-card-span-class">
+                                    @include('components.icons.folder')
+                                    ২২ ক্লাস
+                                </span>
+
+                                <span class="course-akida-card-span-class">
+                                    @include('components.icons.clock')
+                                    ৬+ ঘন্টা
+                                </span>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
+
             </div>
         </div>
-        <!-- All Course End -->
+        <!-- Akida Coruse Start End -->
 
-        <!-- All Course End -->
-        <!-- All Course End -->
+        <!-- About Islam Start -->
+        <div class="default-container">
+           <div class="about-responsive">
 
-        <!-- All Course End -->
-        <!-- All Course End -->
+                <div class="about-box">
+                    <img
+                        class="about-icon"
+                        src="/icons/about-icon.png"
+                        alt="Taw Haa Zin Nurain Islamic School About Icon">
+                    <span
+                        class="about-span">
+                        শেষ জামানায় টিকে থাকতে হলে ইসলামিক জ্ঞান অর্জন খুবই জরুরী
+                    </span>
+                    <h3 class="about-title">
+                        কেন ইসলামিক জ্ঞান অর্জন করব?
+                    </h3>
+                    <p class="about-description">
+                        ইসলামে জ্ঞান চর্চার গুরুত্ব অপরিসীম। এ গুরুত্বের কারণেই আল্লাহ তা‘আলা প্রথম মানুষ আদি পিতা আদম (আঃ)-কে সর্বপ্রথম শিক্ষাদান করেন। পবিত্র কুরআনে বলা হয়েছে,وَعَلَّمَ آدَمَ الْأَسْمَاءَ كُلَّهَا ثُمَّ عَرَضَهُمْ عَلَى الْمَلاَئِكَةِ فَقَالَ أَنْبِئُوْنِيْ بِأَسْمَاءِ هَـؤُلاَءِ إِنْ كُنْتُمْ صَادِقِيْنَ- ‘আর আল্লাহ আদমকে সকল বস্ত্তর নাম শিক্ষা দোন। তারপর সেসমস্ত বস্ত্ত ফেরেশতাদের সামনে উপস্থাপন করা হয়। অতঃপর আল্লাহ বলেন, আমাকে তোমরা এগুলোর নাম বলে দাও, যদি তোমরা সত্যবাদী হয়ে থাক’ (বাক্বারাহ ৩১ )। ........
+                    </p>
+                    <a href="#"
+                        class="about-btn">
+                        সম্পূর্ণ পড়ুন
+                    </a>
+                </div>
+
+                <div class="about-image">
+                    <img src="/images/about-image.png" alt="Taw Haa Zin Nurain Islamic School About Image">
+                </div>
+
+           </div>
+        </div>
+        <!-- About Islam End -->
+
+        <!-- Islami Akida Coruse Start -->
+        <div class="course-islamicAkida">
+
+            <a href="#">
+                <div class="course-islamicAkida-card">
+                    <div class="course-islamicAkida-card-box">
+                        <img src="" alt="" class="course-islamicAkida-card-box-image">
+                        <div class="course-islamicAkida-card-box-span">
+                            islamicAkida One
+                            <br>
+                            The Essentials
+                        </div>
+                    </div>
+
+                    <div class="course-islamicAkida-card-counter">
+                        <div class="course-islamicAkida-card-counter-courses">
+                            <span>100</span>
+                            <span>Courses</span>
+                        </div>
+                        <div class="course-islamicAkida-card-counter-videos">
+                            <span>700+</span>
+                            <span>Videos</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="course-islamicAkida-card">
+                    <div class="course-islamicAkida-card-box">
+                        <img src="" alt="" class="course-islamicAkida-card-box-image">
+                        <div class="course-islamicAkida-card-box-span">
+                            islamicAkida One
+                            <br>
+                            The Essentials
+                        </div>
+                    </div>
+
+                    <div class="course-islamicAkida-card-counter">
+                        <div class="course-islamicAkida-card-counter-courses">
+                            <span>100</span>
+                            <span>Courses</span>
+                        </div>
+                        <div class="course-islamicAkida-card-counter-videos">
+                            <span>700+</span>
+                            <span>Videos</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="course-islamicAkida-card">
+                    <div class="course-islamicAkida-card-box">
+                        <img src="" alt="" class="course-islamicAkida-card-box-image">
+                        <div class="course-islamicAkida-card-box-span">
+                            islamicAkida One
+                            <br>
+                            The Essentials
+                        </div>
+                    </div>
+
+                    <div class="course-islamicAkida-card-counter">
+                        <div class="course-islamicAkida-card-counter-courses">
+                            <span>100</span>
+                            <span>Courses</span>
+                        </div>
+                        <div class="course-islamicAkida-card-counter-videos">
+                            <span>700+</span>
+                            <span>Videos</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="course-islamicAkida-card">
+                    <div class="course-islamicAkida-card-box">
+                        <img src="" alt="" class="course-islamicAkida-card-box-image">
+                        <div class="course-islamicAkida-card-box-span">
+                            islamicAkida One
+                            <br>
+                            The Essentials
+                        </div>
+                    </div>
+
+                    <div class="course-islamicAkida-card-counter">
+                        <div class="course-islamicAkida-card-counter-courses">
+                            <span>100</span>
+                            <span>Courses</span>
+                        </div>
+                        <div class="course-islamicAkida-card-counter-videos">
+                            <span>700+</span>
+                            <span>Videos</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="course-islamicAkida-card">
+                    <div class="course-islamicAkida-card-box">
+                        <img src="" alt="" class="course-islamicAkida-card-box-image">
+                        <div class="course-islamicAkida-card-box-span">
+                            islamicAkida One
+                            <br>
+                            The Essentials
+                        </div>
+                    </div>
+
+                    <div class="course-islamicAkida-card-counter">
+                        <div class="course-islamicAkida-card-counter-courses">
+                            <span>100</span>
+                            <span>Courses</span>
+                        </div>
+                        <div class="course-islamicAkida-card-counter-videos">
+                            <span>700+</span>
+                            <span>Videos</span>
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+         <!-- Islami Akida Coruse End -->
+         <x-slider :images="['/images/Taw Haa Zin Nurain Hero Image.jpg', 'image2.jpg', '/images/Taw Haa Zin Nurain Hero Image.jpg', 'image2.jpg']" />
+
+
     </body>
 </html>

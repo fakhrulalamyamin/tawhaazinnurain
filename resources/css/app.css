@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.default-container {
+    @apply
+        container px-6
+}
 
 .primary-button {
     @apply
@@ -15,29 +19,97 @@
         transition
 }
 
+
+
+
+
+
+
+
+/* Course box */
+
+/* Course box end */
+
+
+/* About Box Start */
+.about-responsive {
+    @apply
+        w-full
+        flex flex-col-reverse
+        pt-16
+}
+
+.about-box {
+    @apply
+        -mt-16
+        flex flex-col items-center justify-center
+        text-base text-center font-siliguri font-medium
+
+        lg:text-xl
+}
+
+.about-icon {
+    @apply
+        w-12 h-12
+        mt-16 mb-2
+
+        lg:mt-0 lg:w-16 lg:h-16
+
+}
+
+.about-span {
+
+}
+
+.about-title {
+    @apply
+        mt-2
+        text-3xl font-siliguri font-medium
+
+        lg:text-6xl
+}
+
+.about-description {
+    @apply
+        text-lg font-siliguri font-medium
+        lg:text-2xl
+}
+
+.about-image {
+    @apply
+        w-full h-full
+        hidden
+
+        md:block
+}
+
+.about-btn {
+    @apply
+        inline mt-4
+        text-base text-primary-0
+
+        md:text-[22px]
+}
+/* About Box End */
+
+
+/*-- Hero Start --*/
 .main-logo {
     @apply
         absolute
         left-0
         max-w-[20px]
 }
-
 .navbar-link {
     @apply
         mr-4
         text-xl font-normal text-primary-0
         hover:text-primary-0/80
 }
-
-
-.login-form {
+.hero {
     @apply
-        max-w-[427px] h-[387px]
-        px-16 py-4
-        bg-primary-0
-        rounded-md shadow-lg
+        text-center
 }
-
 .hero-image {
     @apply
         absolute
@@ -45,59 +117,46 @@
         bg-cover bg-center bg-no-repeat
         left-0 top-0 -z-10
 }
-
-/* Hero Styling */
-.hero {
-    @apply
-        text-center
-}
-
 .hero-heading-primary {
     @apply
         mb-4 text-5xl font-bold text-white font-siliguri leading-snug
         lg:text-[70px]
 }
-
 .hero-heading-primary-span {
     @apply
         text-xl font-normal text-white font-siliguri
 }
+/*-- Hero End --*/
 
 
-/* All Course Styling */
+/*-- All Coruse Start --*/
 .all-course {
     @apply
         lg:flex lg:flex-row lg:text-left
-
-        py-16
+        pt-16
         text-center
 }
-
 .all-course-text {
     @apply
     lg:w-[44rem] lg:border-l-4 lg:border-primary-0
     mb-4
     space-y-6
 }
-
 .all-course-text-border {
     @apply
         lg:hidden
         w-64 h-1 mx-auto
         bg-primary-0
 }
-
 .all-course-text-heading {
     @apply
         lg:pl-8
         text-3xl font-medium text-black font-siliguri
 }
-
 .all-course-text-span {
     @apply
         text-primary-0
 }
-
 .all-course-btn {
     @apply
         px-6 py-2
@@ -106,69 +165,59 @@
         border border-primary-0 rounded
         hover:text-primary-0 hover:bg-transparent hover:border hover:border-primary-0 hover:shadow-md
         transition-all duration-500
-
 }
+/*-- All Coruse End --*/
 
-/* Course Details Styling */
-.course-details {
+
+/*-- Semester Coruse Start --*/
+.course-semester {
     @apply
         w-full
-        pb-16
-
 }
-.course-details-card {
+.course-semester-card {
     @apply
         w-full
         bg-gray-100
         rounded
         hover:shadow-md hover:duration-500 transition
 }
-.course-details-card-box {
+.course-semester-card-box {
     @apply
         w-full h-56
         bg-blue-500
         rounded
 }
-.course-details-card-box-image {
-
-
+.course-semester-card-box-image {
 }
-.course-details-card-box-span {
+.course-semester-card-box-span {
     @apply
         w-full h-full flex items-center justify-center
         text-center text-2xl text-white font-poppins font-medium leading-8
 }
-
-.course-details-card-counter {
+.course-semester-card-counter {
     @apply
         flex items-center justify-between
         px-6 py-4
         text-lg text-black font-medium font-poppins leading-6
 }
-
-.course-details-card-counter-courses {
+.course-semester-card-counter-courses {
     @apply
         flex flex-col items-center
 }
-
-.course-details-card-counter-videos {
+.course-semester-card-counter-videos {
     @apply
         flex flex-col items-center
 }
+/*-- Semester Coruse End --*/
 
-/* Course box */
-.course-container {
-    @apply
-        container px-6 pb-16
-}
 
-.course-responsive {
+/*-- Akida Coruse Start --*/
+.course-akida-responsive {
     @apply
         w-full
-        space-y-8
+        space-x-8
 }
-
-.course-card {
+.course-akida-card {
     @apply
         flex
         w-full h-36
@@ -176,8 +225,7 @@
         bg-gray-100
         rounded
 }
-
-.course-card-image {
+.course-akida-card-image {
     @apply
         w-5/12 h-36
         flex items-center justify-center
@@ -185,28 +233,86 @@
         bg-red-400
         rounded
 }
-
-.course-card-details {
+.course-akida-card-details {
     @apply
         w-full h-full
         flex flex-col justify-between
         pr-8 py-4
 }
-
-.course-card-title {
+.course-akida-card-title {
     @apply
         text-2xl font-siliguri font-medium
 }
-
-.course-card-span {
+.course-akida-card-span {
     @apply
         flex items-center justify-between
 
 }
-
-.course-card-span-class {
+.course-akida-card-span-class {
     @apply
         flex items-center gap-2
         text-base font-siliguri font-medium
 }
-/* Course box end */
+/*-- Akida Coruse End --*/
+
+
+/*-- Islami Akida Coruse Start --*/
+.course-islamicAkida {
+    @apply
+        w-full
+        my-16
+        space-x-4
+
+        md:block
+
+}
+.course-islamicAkida-card {
+    @apply
+        w-full rotate-default
+        bg-gray-100
+        rounded
+        hover:shadow-md hover:duration-500 transition
+}
+.course-islamicAkida-card-box {
+    @apply
+        w-full h-56
+        bg-blue-500
+        rounded
+}
+.course-islamicAkida-card-box-image {
+}
+.course-islamicAkida-card-box-span {
+    @apply
+        w-full h-full flex items-center justify-center
+        text-center text-2xl text-white font-poppins font-medium leading-8
+}
+.course-islamicAkida-card-counter {
+    @apply
+        flex items-center justify-between
+        px-6 py-4
+        text-lg text-black font-medium font-poppins leading-6
+}
+.course-islamicAkida-card-counter-courses {
+    @apply
+        flex flex-col items-center
+}
+.course-islamicAkida-card-counter-videos {
+    @apply
+        flex flex-col items-center
+}
+/*-- Islami Akida Coruse End --*/
+
+/*-- Islami Akida Coruse Start --*/
+/*-- Islami Akida Coruse End --*/
+
+
+/*-- Islami Akida Coruse Start --*/
+/*-- Islami Akida Coruse End --*/
+
+
+/*-- Islami Akida Coruse Start --*/
+/*-- Islami Akida Coruse End --*/
+
+
+/*-- Islami Akida Coruse Start --*/
+/*-- Islami Akida Coruse Start End --*/
