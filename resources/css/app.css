@@ -6,7 +6,7 @@
 
 .default-container {
     @apply
-        container px-6
+        container px-6 mx-auto
 }
 
 .primary-button {
@@ -18,18 +18,6 @@
         duration-300
         transition
 }
-
-
-
-
-
-
-
-
-/* Course box */
-
-/* Course box end */
-
 
 /* About Box Start */
 .about-responsive {
@@ -302,8 +290,24 @@
 }
 /*-- Islami Akida Coruse End --*/
 
-/*-- Islami Akida Coruse Start --*/
-/*-- Islami Akida Coruse End --*/
+/*-- Testimonial Start --*/
+.testimonial {
+
+}
+.testimonial-card {
+    @apply
+        w-full 
+}
+.testimonial-title {
+    @apply
+        w-1/2
+        bg-blue-500
+}
+.testimonial-details {
+    @apply
+        w-1/2
+}
+/*-- Testimonial End --*/
 
 
 /*-- Islami Akida Coruse Start --*/

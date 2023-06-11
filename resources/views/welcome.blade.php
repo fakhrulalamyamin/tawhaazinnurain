@@ -11,7 +11,7 @@
     <body class="antialiased">
 
         <!-- Hero Start -->
-        <div class="relative max-w-7xl mx-auto min-h-[786px] bg-center overflow-hidden">
+        <div class="relative max-w-full mx-auto min-h-[786px] bg-center overflow-hidden">
             <img src="/images/Taw Haa Zin Nurain Hero Image.jpg" alt="" class="hero-image">
             <div class="container mx-auto">
                 <div class="flex items-center justify-between md:px-6 ">
@@ -457,9 +457,22 @@
             </a>
 
         </div>
-         <!-- Islami Akida Coruse End -->
-         <x-slider :images="['/images/Taw Haa Zin Nurain Hero Image.jpg', 'image2.jpg', '/images/Taw Haa Zin Nurain Hero Image.jpg', 'image2.jpg']" />
-
+        <!-- Islami Akida Coruse End -->
+         
+        <!-- Testimonial End -->
+        <div class="default-container">
+            <div class="testimonial">
+                <div class="testimonial-card">
+                    <div class="testimonial-title">
+                        Hello Title
+                    </div>
+                    <div class="testimonial-details">
+                        Hello Details
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
 
     </body>
 </html>
