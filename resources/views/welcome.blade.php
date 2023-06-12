@@ -474,5 +474,22 @@
         </div>
         <!-- Testimonial End -->
 
+
+        <div class="slider-container">
+            <div class="slide-content">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+
+                            <div class="card-image">
+                                <img src="/imager/slide-1.png" alt="" class="card-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>

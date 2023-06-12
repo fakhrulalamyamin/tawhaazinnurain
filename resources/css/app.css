@@ -311,6 +311,18 @@
 
 
 /*-- Islami Akida Coruse Start --*/
+.card-image {
+    @apply 
+        relative
+        w-[150px] h-[150px]
+        rounded-full
+}
+.card-img {
+    @apply 
+        w-full h-full
+        object-cover
+        rounded-full
+}
 /*-- Islami Akida Coruse End --*/
 
 
