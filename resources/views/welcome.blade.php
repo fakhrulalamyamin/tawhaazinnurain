@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @vite('resources/css/app.css')
 
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+
         <title>Laravel</title>
 
     </head>
@@ -333,146 +337,160 @@
         </div>
         <!-- About Islam End -->
 
-        <!-- Islami Akida Coruse Start -->
-        <div class="course-islamicAkida">
+        <!-- Swiper Slider Start -->
+        <div class="h-[285px] my-16">
+            <div class="swiper mySwiper rotate-default">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide rounded-md">
+                        <a href="#">
+                            <div class="w-full h-full">
+                                <div class="slide-card-image">
+                                    <h2> ইসলামি আকীদা </h2>
+                                </div>
 
-            <a href="#">
-                <div class="course-islamicAkida-card">
-                    <div class="course-islamicAkida-card-box">
-                        <img src="" alt="" class="course-islamicAkida-card-box-image">
-                        <div class="course-islamicAkida-card-box-span">
-                            islamicAkida One
-                            <br>
-                            The Essentials
-                        </div>
+                                <div class="slide-card-content">
+                                    <span class="text-base font-normal"> ৬+ ঘন্টার কোর্স </span>
+                                    <h2 class="text-[22px] font-semibold"> বেসিক ইসলামি আকীদা </h2>
+                                </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="course-islamicAkida-card-counter">
-                        <div class="course-islamicAkida-card-counter-courses">
-                            <span>100</span>
-                            <span>Courses</span>
-                        </div>
-                        <div class="course-islamicAkida-card-counter-videos">
-                            <span>700+</span>
-                            <span>Videos</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
+                    <div class="swiper-slide rounded-md">
+                        <a href="#">
+                            <div class="w-full h-full">
+                                <div class="slide-card-image">
+                                    <h2> ইসলামি আকীদা </h2>
+                                </div>
 
-            <a href="#">
-                <div class="course-islamicAkida-card">
-                    <div class="course-islamicAkida-card-box">
-                        <img src="" alt="" class="course-islamicAkida-card-box-image">
-                        <div class="course-islamicAkida-card-box-span">
-                            islamicAkida One
-                            <br>
-                            The Essentials
-                        </div>
+                                <div class="slide-card-content">
+                                    <span class="text-base font-normal"> ৬+ ঘন্টার কোর্স </span>
+                                    <h2 class="text-[22px] font-semibold"> বেসিক ইসলামি আকীদা </h2>
+                                </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="course-islamicAkida-card-counter">
-                        <div class="course-islamicAkida-card-counter-courses">
-                            <span>100</span>
-                            <span>Courses</span>
-                        </div>
-                        <div class="course-islamicAkida-card-counter-videos">
-                            <span>700+</span>
-                            <span>Videos</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
+                    <div class="swiper-slide rounded-md">
+                        <a href="#">
+                            <div class="w-full h-full">
+                                <div class="slide-card-image">
+                                    <h2> ইসলামি আকীদা </h2>
+                                </div>
 
-            <a href="#">
-                <div class="course-islamicAkida-card">
-                    <div class="course-islamicAkida-card-box">
-                        <img src="" alt="" class="course-islamicAkida-card-box-image">
-                        <div class="course-islamicAkida-card-box-span">
-                            islamicAkida One
-                            <br>
-                            The Essentials
-                        </div>
+                                <div class="slide-card-content">
+                                    <span class="text-base font-normal"> ৬+ ঘন্টার কোর্স </span>
+                                    <h2 class="text-[22px] font-semibold"> বেসিক ইসলামি আকীদা </h2>
+                                </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="course-islamicAkida-card-counter">
-                        <div class="course-islamicAkida-card-counter-courses">
-                            <span>100</span>
-                            <span>Courses</span>
-                        </div>
-                        <div class="course-islamicAkida-card-counter-videos">
-                            <span>700+</span>
-                            <span>Videos</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
+                    <div class="swiper-slide rounded-md">
+                        <a href="#">
+                            <div class="w-full h-full">
+                                <div class="slide-card-image">
+                                    <h2> ইসলামি আকীদা </h2>
+                                </div>
 
-            <a href="#">
-                <div class="course-islamicAkida-card">
-                    <div class="course-islamicAkida-card-box">
-                        <img src="" alt="" class="course-islamicAkida-card-box-image">
-                        <div class="course-islamicAkida-card-box-span">
-                            islamicAkida One
-                            <br>
-                            The Essentials
-                        </div>
+                                <div class="slide-card-content">
+                                    <span class="text-base font-normal"> ৬+ ঘন্টার কোর্স </span>
+                                    <h2 class="text-[22px] font-semibold"> বেসিক ইসলামি আকীদা </h2>
+                                </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="course-islamicAkida-card-counter">
-                        <div class="course-islamicAkida-card-counter-courses">
-                            <span>100</span>
-                            <span>Courses</span>
-                        </div>
-                        <div class="course-islamicAkida-card-counter-videos">
-                            <span>700+</span>
-                            <span>Videos</span>
-                        </div>
-                    </div>
-                </div>
-            </a>
+                    <div class="swiper-slide rounded-md">
+                        <a href="#">
+                            <div class="w-full h-full">
+                                <div class="slide-card-image">
+                                    <h2> ইসলামি আকীদা </h2>
+                                </div>
 
-            <a href="#">
-                <div class="course-islamicAkida-card">
-                    <div class="course-islamicAkida-card-box">
-                        <img src="" alt="" class="course-islamicAkida-card-box-image">
-                        <div class="course-islamicAkida-card-box-span">
-                            islamicAkida One
-                            <br>
-                            The Essentials
-                        </div>
+                                <div class="slide-card-content">
+                                    <span class="text-base font-normal"> ৬+ ঘন্টার কোর্স </span>
+                                    <h2 class="text-[22px] font-semibold"> বেসিক ইসলামি আকীদা </h2>
+                                </div>
+                            </div>
+                        </a>
                     </div>
 
-                    <div class="course-islamicAkida-card-counter">
-                        <div class="course-islamicAkida-card-counter-courses">
-                            <span>100</span>
-                            <span>Courses</span>
-                        </div>
-                        <div class="course-islamicAkida-card-counter-videos">
-                            <span>700+</span>
-                            <span>Videos</span>
-                        </div>
+                    <div class="swiper-slide rounded-md">
+                        <a href="#">
+                            <div class="w-full h-full">
+                                <div class="slide-card-image">
+                                    <h2> ইসলামি আকীদা </h2>
+                                </div>
+
+                                <div class="slide-card-content">
+                                    <span class="text-base font-normal"> ৬+ ঘন্টার কোর্স </span>
+                                    <h2 class="text-[22px] font-semibold"> বেসিক ইসলামি আকীদা </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="swiper-slide rounded-md">
+                        <a href="#">
+                            <div class="w-full h-full">
+                                <div class="slide-card-image">
+                                    <h2> ইসলামি আকীদা </h2>
+                                </div>
+
+                                <div class="slide-card-content">
+                                    <span class="text-base font-normal"> ৬+ ঘন্টার কোর্স </span>
+                                    <h2 class="text-[22px] font-semibold"> বেসিক ইসলামি আকীদা </h2>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
-            </a>
-
+            </div>
         </div>
-        <!-- Islami Akida Coruse End -->
-         
+        <!-- Swiper Slider End -->
+
         <!-- Testimonial End -->
         <div class="default-container">
-            <div class="testimonial">
-                <div class="testimonial-card">
-                    <div class="testimonial-title">
-                        Hello Title
+            <div class="testimonial relative">
+                <div class="card-left relative">
+                    <h2 class="card-left-text">আলহামদুলিল্লাহ! ইতিমধ্যে ৯০০০+ মানুষ প্রতিদিন ইকরা এরাবিক স্কুলের সাথে কুরআন শিখছে</h2>
+                </div>
+
+                <div class="card-right">
+                    <div class="card">
+                        <div class="flex flex-col">
+                            <span class="text-sm">৩০+ জন</span>
+                            <span class="text-xl">শিক্ষক</span>
+                        </div>
+
+                        <div class="flex flex-col">
+                            <span class="text-sm">৪ টি গঠনমূলক</span>
+                            <span class="text-xl">লার্নিং পথ</span>
+                        </div>
                     </div>
-                    <div class="testimonial-details">
-                        Hello Details
+
+                    <div class="card">
+                        <div class="flex flex-col">
+                            <span class="text-sm">৩০+ জন</span>
+                            <span class="text-xl">শিক্ষক</span>
+                        </div>
+
+                        <div class="flex flex-col">
+                            <span class="text-sm">৪ টি গঠনমূলক</span>
+                            <span class="text-xl">লার্নিং পথ</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Testimonial End -->
+
+
+
+    <!-- Swiper Js -->
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/script.js"></script>
 
     </body>
 </html>

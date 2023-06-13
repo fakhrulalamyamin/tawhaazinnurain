@@ -243,79 +243,57 @@
 }
 /*-- Akida Coruse End --*/
 
+/*-- Slide Card Start --*/
+.slide-card-image {
+    @apply
+        w-full h-[213px]
+        flex items-center justify-center
+        text-center text-white text-2xl font-siliguri font-medium
+        bg-red-500 rounded-md
+}
+.slide-card-content {
+    @apply
+        px-4 py-2 text-black font-siliguri text-left
+}
+/*-- Slide Card End --*/
 
-/*-- Islami Akida Coruse Start --*/
-.course-islamicAkida {
-    @apply
-        w-full
-        my-16
-        space-x-4
-
-        md:block
-
-}
-.course-islamicAkida-card {
-    @apply
-        w-full rotate-default
-        bg-gray-100
-        rounded
-        hover:shadow-md hover:duration-500 transition
-}
-.course-islamicAkida-card-box {
-    @apply
-        w-full h-56
-        bg-blue-500
-        rounded
-}
-.course-islamicAkida-card-box-image {
-}
-.course-islamicAkida-card-box-span {
-    @apply
-        w-full h-full flex items-center justify-center
-        text-center text-2xl text-white font-poppins font-medium leading-8
-}
-.course-islamicAkida-card-counter {
-    @apply
-        flex items-center justify-between
-        px-6 py-4
-        text-lg text-black font-medium font-poppins leading-6
-}
-.course-islamicAkida-card-counter-courses {
-    @apply
-        flex flex-col items-center
-}
-.course-islamicAkida-card-counter-videos {
-    @apply
-        flex flex-col items-center
-}
-/*-- Islami Akida Coruse End --*/
 
 /*-- Testimonial Start --*/
 .testimonial {
+    @apply
+        w-full
+        my-16 px-8 py-16
+        text-center bg-black text-white
+        rounded-md
+
+        hover:shadow-gray-500 hover:shadow-lg hover:duration-300 transition
+}
+.card-left {
 
 }
-.testimonial-card {
+.card-left-text {
     @apply
-        w-full 
+        mb-2
+        text-2xl text-white font-siliguri font-medium
+
+        lg:text-3xl
 }
-.testimonial-title {
+.card-right {
     @apply
-        w-1/2
-        bg-blue-500
+        text-white/80
+        flex justify-between
+        px-16 my-8 text-left
 }
-.testimonial-details {
+.card {
     @apply
-        w-1/2
+        space-y-4
 }
+.card-1 {
+
+}
+.card-2 {}
+
 /*-- Testimonial End --*/
-
-
-/*-- Islami Akida Coruse Start --*/
-/*-- Islami Akida Coruse End --*/
-
-
-/*-- Islami Akida Coruse Start --*/
-/*-- Islami Akida Coruse End --*/
 
 
 /*-- Islami Akida Coruse Start --*/
