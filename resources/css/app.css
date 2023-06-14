@@ -340,8 +340,67 @@
 /*-- Register End --*/
 
 
-/*-- Islami Akida Coruse Start --*/
-/*-- Islami Akida Coruse End --*/
+/*-- Footer Start --*/
+.footer {
+    @apply
+        w-full
+        mt-16 py-8
+        bg-black
+        text-center
+}
+.footer-content {
+    @apply
+        text-white
+}
+.footer-logo {
+    @apply
+        w-64 h-auto
+        flex mx-auto
+        mb-4
+}
+.footer-title {
+    @apply
+        text-lg font-siliguri
+        mb-2
+}
+.footer-contact {
+    @apply
+        text-white/70 text-sm font-poppins
+}
+.footer-link {
+    @apply
+        w-2/3 mx-auto
+        my-8
+        flex justify-between
+        text-left
+}
+.footer-company {
+
+}
+.footer-item-heading {
+    @apply
+        mb-4
+        text-white font-siliguri font-semibold
+}
+.footer-list {
+    @apply
+        space-y-2
+}
+.footer-item {
+    @apply
+        text-white/70
+}
+.footer-item-link {
+    @apply
+        font-medium font-siliguri
+}
+.footer-copyright {
+    @apply
+        w-full h-16
+        flex items-center justify-center
+        text-white text-xs font-poppins font-normal
+}
+/*-- Footer End --*/
 
 
 /*-- Islami Akida Coruse Start --*/
