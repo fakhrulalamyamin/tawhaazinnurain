@@ -19,6 +19,16 @@
         transition
 }
 
+.secondary-button {
+    @apply
+        px-6 py-2
+        text-white text-[22px] font-normal font-siliguri
+        bg-primary-0
+        border border-primary-0 rounded
+        hover:text-primary-0 hover:bg-transparent hover:border hover:border-primary-0 hover:shadow-md
+        transition-all duration-500
+}
+
 /* About Box Start */
 .about-responsive {
     @apply
@@ -266,7 +276,7 @@
         text-center bg-black text-white
         rounded-md
 
-        hover:shadow-gray-500 hover:shadow-lg hover:duration-300 transition
+        hover:shadow-gray-500 hover:shadow-md hover:duration-300 transition
 }
 .card-left {
 
@@ -292,9 +302,42 @@
 /*-- Testimonial End --*/
 
 
-/*-- Islami Akida Coruse Start --*/
+/*-- Register Start --*/
+.register {
 
-/*-- Islami Akida Coruse End --*/
+}
+.register-content {
+    @apply
+        font-siliguri text-center
+}
+.register-heading {
+    @apply
+        text-2xl
+}
+.register-heading-sub {
+    @apply
+        text-primary-0
+}
+.register-span {
+    @apply
+        text-base text-secondary-0
+}
+.register-button {
+    @apply
+        mt-4
+        px-4 py-2
+        text-sm bg-primary-0 text-white font-siliguri font-medium
+        border rounded
+
+        hover:text-primary-0 hover:bg-transparent hover:border hover:border-primary-0 hover:shadow-md
+        transition-all duration-500
+}
+
+.register-image {
+    @apply
+        hidden
+}
+/*-- Register End --*/
 
 
 /*-- Islami Akida Coruse Start --*/
