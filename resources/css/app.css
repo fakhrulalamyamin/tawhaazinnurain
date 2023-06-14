@@ -347,25 +347,40 @@
         mt-16 py-8
         bg-black
         text-center
+
+        md:text-left
+}
+.footer-responsive {
+    @apply
+        md:flex
 }
 .footer-content {
     @apply
         text-white
+
+        md:mr-16
 }
 .footer-logo {
     @apply
         w-64 h-auto
         flex mx-auto
         mb-4
+
+        md:w-[250px] md:h-[115px] md:mx-0
+        lg:w-[345px]
 }
 .footer-title {
     @apply
-        text-lg font-siliguri
+        text-base font-siliguri
         mb-2
+
+        md:text-lg lg:text-2xl
 }
 .footer-contact {
     @apply
         text-white/70 text-sm font-poppins
+
+        md:text-[14px] lg:text-lg
 }
 .footer-link {
     @apply
@@ -381,10 +396,18 @@
     @apply
         mb-4
         text-white font-siliguri font-semibold
+
+        md:text-lg lg:text-2xl
+}
+.footer-item {
+    @apply
+        md:text-lg lg:text-2xl
 }
 .footer-list {
     @apply
         space-y-2
+
+        md:w-1/2
 }
 .footer-item {
     @apply
@@ -393,16 +416,29 @@
 .footer-item-link {
     @apply
         font-medium font-siliguri
+        hover:text-primary-0 hover:shadow-md hover:duration-300 transition-all
 }
-.footer-copyright {
+.copyright {
     @apply
         w-full h-16
+        flex flex-col items-center justify-center
+
+        md:h-32
+}
+.copyright-heading {
+    @apply
+        w-full my-auto
         flex items-center justify-center
         text-white text-xs font-poppins font-normal
+
+        md:text-lg lg:text-xl
+}
+.copyright-span {
+    @apply
+        mt-[2px]
+        text-xs text-center text-white/70
+
+        md:text-sm md:mt-1
+        lg:mt-2 lg:text-base
 }
 /*-- Footer End --*/
-
-
-/*-- Islami Akida Coruse Start --*/
-
-/*-- Islami Akida Coruse Start End --*/
