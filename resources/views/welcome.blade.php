@@ -499,7 +499,9 @@
                     <button href="#" class="register-button">রেজিষ্ট্রেশন করুন</button>
                 </div>
 
-                <div class="register-image">Image</div>
+                <div class="register-image">
+                    <img src="/images/register.png" alt="" class="register-img">
+                </div>
             </div>
         </div>
         <!-- Register End -->
@@ -565,7 +567,7 @@
                 <div class="copyright">
                     <div>
                         <h3 class="copyright-heading">&copy; IQRA Arabic School 2022 | All rights reserved.</h3>
-                        <p class="copyright-span">Developed By YEB Ltd.</p>
+                        <p class="copyright-span">Developed By <a href="#" class="copyright-company">YEB Ltd.</a></p>
                     </div>
                 </div>
             </div>
