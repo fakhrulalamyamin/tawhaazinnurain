@@ -461,24 +461,24 @@
                     <div class="card">
                         <div class="flex flex-col">
                             <span class="text-sm">৩০+ জন</span>
-                            <span class="text-xl">শিক্ষক</span>
+                            <span class="text-xl text-white">শিক্ষক</span>
                         </div>
 
                         <div class="flex flex-col">
                             <span class="text-sm">৪ টি গঠনমূলক</span>
-                            <span class="text-xl">লার্নিং পথ</span>
+                            <span class="text-xl text-white">লার্নিং পথ</span>
                         </div>
                     </div>
 
                     <div class="card">
                         <div class="flex flex-col">
                             <span class="text-sm">৩০+ জন</span>
-                            <span class="text-xl">শিক্ষক</span>
+                            <span class="text-xl text-white">শিক্ষক</span>
                         </div>
 
                         <div class="flex flex-col">
                             <span class="text-sm">৪ টি গঠনমূলক</span>
-                            <span class="text-xl">লার্নিং পথ</span>
+                            <span class="text-xl text-white">লার্নিং পথ</span>
                         </div>
                     </div>
                 </div>

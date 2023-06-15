@@ -277,22 +277,27 @@
         rounded-md
 
         hover:shadow-gray-500 hover:shadow-md hover:duration-300 transition
+
+        md:flex
 }
 .card-left {
-
+    @apply
+        md:w-1/2 md:flex md:items-center md:justify-center
 }
 .card-left-text {
     @apply
         mb-2
-        text-2xl text-white font-siliguri font-medium
+        text-2xl text-white font-siliguri font-medium leading-[1.4]
 
-        lg:text-3xl
+        md:leading-[1.5] lg:leading-[1.5] lg:text-3xl xl:text-3xl
 }
 .card-right {
     @apply
         text-white/80
         flex justify-between
         px-16 my-8 text-left
+
+        md:w-1/2
 }
 .card {
     @apply
