@@ -305,9 +305,8 @@
         <!-- Akida Coruse Start End -->
 
         <!-- About Islam Start -->
-        <div class="default-container">
-           <div class="about-responsive">
-
+        <div class="default-container lg:pt-16">
+            <div class="about-responsive">
                 <div class="about-box">
                     <img
                         class="about-icon"
@@ -330,10 +329,11 @@
                 </div>
 
                 <div class="about-image">
-                    <img src="/images/about-image.png" alt="Taw Haa Zin Nurain Islamic School About Image">
+                    <img
+                        class="about-img"
+                        src="/images/about-image.png" alt="Taw Haa Zin Nurain Islamic School About Image">
                 </div>
-
-           </div>
+            </div>
         </div>
         <!-- About Islam End -->
 

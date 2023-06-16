@@ -29,67 +29,6 @@
         transition-all duration-500
 }
 
-/* About Box Start */
-.about-responsive {
-    @apply
-        w-full
-        flex flex-col-reverse
-        pt-16
-}
-
-.about-box {
-    @apply
-        -mt-16
-        flex flex-col items-center justify-center
-        text-base text-center font-siliguri font-medium
-
-        lg:text-xl
-}
-
-.about-icon {
-    @apply
-        w-12 h-12
-        mt-16 mb-2
-
-        lg:mt-0 lg:w-16 lg:h-16
-
-}
-
-.about-span {
-
-}
-
-.about-title {
-    @apply
-        mt-2
-        text-3xl font-siliguri font-medium
-
-        lg:text-6xl
-}
-
-.about-description {
-    @apply
-        text-lg font-siliguri font-medium
-        lg:text-2xl
-}
-
-.about-image {
-    @apply
-        w-full h-full
-        hidden
-
-        md:block
-}
-
-.about-btn {
-    @apply
-        inline mt-4
-        text-base text-primary-0
-
-        md:text-[22px]
-}
-/* About Box End */
-
 
 /*-- Hero Start --*/
 .main-logo {
@@ -252,6 +191,76 @@
         text-base font-siliguri font-medium
 }
 /*-- Akida Coruse End --*/
+
+/* About Box Start */
+.about-responsive {
+    @apply
+        w-full
+        flex-col-reverse
+        pt-16
+
+        md:flex md:flex-row md:space-x-4 md:justify-between md:items-center
+}
+
+.about-box {
+    @apply
+        -mt-16
+        flex flex-col items-center justify-center
+        text-base text-center font-siliguri font-medium
+
+
+        md:items-start md:w-2/3 md:text-left lg:text-xl
+}
+
+.about-icon {
+    @apply
+        w-12 h-12
+        mt-16 mb-2
+
+        lg:mt-0 lg:w-16 lg:h-16
+
+}
+
+.about-span {
+
+}
+
+.about-title {
+    @apply
+        my-2
+        text-3xl font-siliguri font-medium
+
+        md:text-[34px] lg:text-5xl
+}
+
+.about-description {
+    @apply
+        text-lg font-siliguri font-medium
+        md:w-[450px]
+        lg:w-[690px] lg:text-2xl
+}
+
+.about-image {
+    @apply
+        w-full h-full
+        hidden
+
+        md:block
+}
+.about-img {
+    @apply
+        md:w-[515px] md:h-[415px] md:ml-16
+}
+
+.about-btn {
+    @apply
+        inline mt-4
+        text-base text-primary-0
+        duration-300 transition-all
+
+        md:text-2xl hover:text-primary-0/80
+}
+/* About Box End */
 
 /*-- Slide Card Start --*/
 .slide-card-image {
