@@ -289,7 +289,24 @@
         mb-2
         text-2xl text-white font-siliguri font-medium leading-[1.4]
 
-        md:leading-[1.5] lg:leading-[1.5] lg:text-3xl xl:text-3xl
+        md:leading-[1.5] lg:leading-[1.5] lg:text-3xl
+        xl:text-3xl xl:leading-[1.6]
+}
+.text-span-1 {
+    @apply
+        block
+}
+.text-span-2 {
+    @apply
+        block
+}
+.text-span-3 {
+    @apply
+        block
+}
+.text-span-4 {
+    @apply
+        block
 }
 .card-right {
     @apply

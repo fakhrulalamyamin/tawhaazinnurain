@@ -454,7 +454,8 @@
         <div class="default-container">
             <div class="testimonial relative">
                 <div class="card-left relative">
-                    <h2 class="card-left-text">আলহামদুলিল্লাহ! ইতিমধ্যে ৯০০০+ মানুষ প্রতিদিন ইকরা এরাবিক স্কুলের সাথে কুরআন শিখছে</h2>
+                    <h2 class="card-left-text">
+                        <span class="text-span-1"> আলহামদুলিল্লাহ! ইতিমধ্যে </span> <span class="text-span-2"> <span class="text-span-3"> ৯০০০+ মানুষ প্রতিদিন ইকরা </span> <span class="text-span-4"> এরাবিক স্কুলের সাথে </span> কুরআন শিখছে</h2>
                 </div>
 
                 <div class="card-right">
