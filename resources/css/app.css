@@ -29,67 +29,6 @@
         transition-all duration-500
 }
 
-/* About Box Start */
-.about-responsive {
-    @apply
-        w-full
-        flex flex-col-reverse
-        pt-16
-}
-
-.about-box {
-    @apply
-        -mt-16
-        flex flex-col items-center justify-center
-        text-base text-center font-siliguri font-medium
-
-        lg:text-xl
-}
-
-.about-icon {
-    @apply
-        w-12 h-12
-        mt-16 mb-2
-
-        lg:mt-0 lg:w-16 lg:h-16
-
-}
-
-.about-span {
-
-}
-
-.about-title {
-    @apply
-        mt-2
-        text-3xl font-siliguri font-medium
-
-        lg:text-6xl
-}
-
-.about-description {
-    @apply
-        text-lg font-siliguri font-medium
-        lg:text-2xl
-}
-
-.about-image {
-    @apply
-        w-full h-full
-        hidden
-
-        md:block
-}
-
-.about-btn {
-    @apply
-        inline mt-4
-        text-base text-primary-0
-
-        md:text-[22px]
-}
-/* About Box End */
-
 
 /*-- Hero Start --*/
 .main-logo {
@@ -253,6 +192,76 @@
 }
 /*-- Akida Coruse End --*/
 
+/* About Box Start */
+.about-responsive {
+    @apply
+        w-full
+        flex-col-reverse
+        pt-16
+
+        md:flex md:flex-row md:space-x-4 md:justify-between md:items-center
+}
+
+.about-box {
+    @apply
+        -mt-16
+        flex flex-col items-center justify-center
+        text-base text-center font-siliguri font-medium
+
+
+        md:items-start md:w-2/3 md:text-left lg:text-xl
+}
+
+.about-icon {
+    @apply
+        w-12 h-12
+        mt-16 mb-2
+
+        lg:mt-0 lg:w-16 lg:h-16
+
+}
+
+.about-span {
+
+}
+
+.about-title {
+    @apply
+        my-2
+        text-3xl font-siliguri font-medium
+
+        md:text-[34px] lg:text-5xl
+}
+
+.about-description {
+    @apply
+        text-lg font-siliguri font-medium
+        md:w-[450px]
+        lg:w-[690px] lg:text-2xl
+}
+
+.about-image {
+    @apply
+        w-full h-full
+        hidden
+
+        md:block
+}
+.about-img {
+    @apply
+        md:w-[515px] md:h-[415px] md:ml-16
+}
+
+.about-btn {
+    @apply
+        inline mt-4
+        text-base text-primary-0
+        duration-300 transition-all
+
+        md:text-2xl hover:text-primary-0/80
+}
+/* About Box End */
+
 /*-- Slide Card Start --*/
 .slide-card-image {
     @apply
@@ -277,22 +286,44 @@
         rounded-md
 
         hover:shadow-gray-500 hover:shadow-md hover:duration-300 transition
+
+        md:flex
 }
 .card-left {
-
+    @apply
+        md:w-1/2 md:flex md:items-center md:justify-center
 }
 .card-left-text {
     @apply
         mb-2
-        text-2xl text-white font-siliguri font-medium
+        text-2xl text-white font-siliguri font-medium leading-[1.4]
 
-        lg:text-3xl
+        md:leading-[1.5] lg:leading-[1.5] lg:text-3xl
+        xl:text-3xl xl:leading-[1.6]
+}
+.text-span-1 {
+    @apply
+        block
+}
+.text-span-2 {
+    @apply
+        block
+}
+.text-span-3 {
+    @apply
+        block
+}
+.text-span-4 {
+    @apply
+        block
 }
 .card-right {
     @apply
         text-white/80
         flex justify-between
         px-16 my-8 text-left
+
+        md:w-1/2
 }
 .card {
     @apply
@@ -304,15 +335,22 @@
 
 /*-- Register Start --*/
 .register {
-
+    @apply
+        md:flex md:items-center md:justify-between
 }
 .register-content {
     @apply
         font-siliguri text-center
+
+        md:text-left
 }
 .register-heading {
     @apply
         text-2xl
+
+        md:text-3xl md:mb-2
+        lg:text-[40px] lg:leading-[1.2]
+        xl:text-5xl xl:leading-[1.2]
 }
 .register-heading-sub {
     @apply
@@ -321,6 +359,8 @@
 .register-span {
     @apply
         text-base text-secondary-0
+
+        md:text-lg lg:text-3xl
 }
 .register-button {
     @apply
@@ -331,11 +371,21 @@
 
         hover:text-primary-0 hover:bg-transparent hover:border hover:border-primary-0 hover:shadow-md
         transition-all duration-500
+
+        md:text-lg md:mt-6
+        lg:text-xl
 }
 
 .register-image {
     @apply
         hidden
+
+        md:block
+}
+.register-img {
+    @apply
+        md:w-[220px] md:h-auto
+        lg:w-[360px] lg:h-[340px]
 }
 /*-- Register End --*/
 
@@ -347,25 +397,40 @@
         mt-16 py-8
         bg-black
         text-center
+
+        md:text-left
+}
+.footer-responsive {
+    @apply
+        md:flex
 }
 .footer-content {
     @apply
         text-white
+
+        md:mr-16
 }
 .footer-logo {
     @apply
         w-64 h-auto
         flex mx-auto
         mb-4
+
+        md:w-[250px] md:h-[115px] md:mx-0
+        lg:w-[345px]
 }
 .footer-title {
     @apply
-        text-lg font-siliguri
+        text-base font-siliguri
         mb-2
+
+        md:text-lg lg:text-2xl
 }
 .footer-contact {
     @apply
         text-white/70 text-sm font-poppins
+
+        md:text-[14px] lg:text-lg
 }
 .footer-link {
     @apply
@@ -381,10 +446,18 @@
     @apply
         mb-4
         text-white font-siliguri font-semibold
+
+        md:text-lg lg:text-2xl
+}
+.footer-item {
+    @apply
+        md:text-lg lg:text-2xl
 }
 .footer-list {
     @apply
         space-y-2
+
+        md:w-1/2
 }
 .footer-item {
     @apply
@@ -393,16 +466,36 @@
 .footer-item-link {
     @apply
         font-medium font-siliguri
+        hover:text-primary-0 hover:shadow-md hover:duration-300 transition-all
 }
-.footer-copyright {
+.copyright {
     @apply
         w-full h-16
+        flex flex-col items-center justify-center
+
+        md:h-32
+}
+.copyright-heading {
+    @apply
+        w-full my-auto
         flex items-center justify-center
         text-white text-xs font-poppins font-normal
+
+        md:text-lg lg:text-xl
+}
+.copyright-span {
+    @apply
+        mt-[2px]
+        text-xs text-center text-white/70
+
+        md:text-sm md:mt-1
+        lg:mt-2 lg:text-base
+}
+.copyright-company {
+    @apply
+        text-white/80
+        duration-300
+        transition-all
+        hover:text-primary-0
 }
 /*-- Footer End --*/
-
-
-/*-- Islami Akida Coruse Start --*/
-
-/*-- Islami Akida Coruse Start End --*/
