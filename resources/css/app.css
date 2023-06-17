@@ -147,12 +147,25 @@
 }
 /*-- Semester Coruse End --*/
 
-
 /*-- Akida Coruse Start --*/
-.course-akida-responsive {
+.akida-responsive {
     @apply
-        w-full
-        space-x-8
+        grid grid-cols-1
+        gap-4
+
+        md:gap-8 md:grid-cols-2
+}
+.akida-due-card {
+    @apply
+        space-y-4
+
+        md:space-y-6
+}
+.akida-single-card {
+    @apply
+        duration-300
+        transition-all
+        hover:shadow-md
 }
 .course-akida-card {
     @apply
@@ -169,6 +182,8 @@
         text-xl text-white font-siliguri font-medium
         bg-red-400
         rounded
+
+        md:w-7/12
 }
 .course-akida-card-details {
     @apply
@@ -179,6 +194,9 @@
 .course-akida-card-title {
     @apply
         text-2xl font-siliguri font-medium
+
+        md:text-[1.21rem]
+        lg:text-2xl
 }
 .course-akida-card-span {
     @apply

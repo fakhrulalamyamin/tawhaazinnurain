@@ -184,7 +184,7 @@
             <div class="all-course">
                 <div class="all-course-text">
                     <div class="all-course-text-border"></div>
-                    <h2 class="all-course-text-heading">গঠনমূলক সিলেবাসের মাধ্যমে ধাপে ধাপে
+                    <h2 class="all-course-text-heading">গঠনমূলক সিলেবাসের মাধ্যমে ধাপে ধাপে <br>
                         <span class="all-course-text-span">
                             ইসলামের খুটিনাটি
                         </span> বিষয়ে
@@ -202,107 +202,115 @@
 
         <!-- Akida Coruse Start Start -->
         <div class="default-container">
-            <div class="course-akida-responsive">
+            <div class="akida-responsive">
+                <div class="akida-due-card">
+                    <div class="akida-single-card">
+                        <a href="#" >
+                            <div class="course-akida-card md:mb-4">
+                                <div class="course-akida-card-image">
+                                    <span>আকীদা</span>
+                                </div>
+                                <div class="course-akida-card-details">
+                                    <div class="course-akida-card-title">
+                                        বেসিক ইসলামি আকীদা
+                                    </div>
+                                    <div class="course-akida-card-span">
+                                        <span class="course-akida-card-span-class">
+                                            @include('components.icons.folder')
+                                            ২২ ক্লাস
+                                        </span>
 
-                <a href="#">
-                    <div class="course-akida-card">
-                        <div class="course-akida-card-image">
-                            <span>আকীদা</span>
-                        </div>
-                        <div class="course-akida-card-details">
-                            <div class="course-akida-card-title">
-                                বেসিক ইসলামি আকীদা
+                                        <span class="course-akida-card-span-class">
+                                            @include('components.icons.clock')
+                                            ৬+ ঘন্টা
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="course-akida-card-span">
-                                <span class="course-akida-card-span-class">
-                                    @include('components.icons.folder')
-                                    ২২ ক্লাস
-                                </span>
-
-                                <span class="course-akida-card-span-class">
-                                    @include('components.icons.clock')
-                                    ৬+ ঘন্টা
-                                </span>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                </a>
+                    <div class="akida-single-card">
+                        <a href="#" >
+                            <div class="course-akida-card md:mb-4">
+                                <div class="course-akida-card-image">
+                                    <span>আকীদা</span>
+                                </div>
+                                <div class="course-akida-card-details">
+                                    <div class="course-akida-card-title">
+                                        বেসিক ইসলামি আকীদা
+                                    </div>
+                                    <div class="course-akida-card-span">
+                                        <span class="course-akida-card-span-class">
+                                            @include('components.icons.folder')
+                                            ২২ ক্লাস
+                                        </span>
 
-                <a href="#">
-                    <div class="course-akida-card">
-                        <div class="course-akida-card-image">
-                            <span>আকীদা</span>
-                        </div>
-                        <div class="course-akida-card-details">
-                            <div class="course-akida-card-title">
-                                বেসিক ইসলামি আকীদা
+                                        <span class="course-akida-card-span-class">
+                                            @include('components.icons.clock')
+                                            ৬+ ঘন্টা
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="course-akida-card-span">
-                                <span class="course-akida-card-span-class">
-                                    @include('components.icons.folder')
-                                    ২২ ক্লাস
-                                </span>
-
-                                <span class="course-akida-card-span-class">
-                                    @include('components.icons.clock')
-                                    ৬+ ঘন্টা
-                                </span>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                </a>
+                </div>
 
-                <a href="#">
-                    <div class="course-akida-card">
-                        <div class="course-akida-card-image">
-                            <span>আকীদা</span>
-                        </div>
-                        <div class="course-akida-card-details">
-                            <div class="course-akida-card-title">
-                                বেসিক ইসলামি আকীদা
-                            </div>
-                            <div class="course-akida-card-span">
-                                <span class="course-akida-card-span-class">
-                                    @include('components.icons.folder')
-                                    ২২ ক্লাস
-                                </span>
+                <div class="akida-due-card">
+                    <div class="akida-single-card">
+                        <a href="#" >
+                            <div class="course-akida-card md:mb-4">
+                                <div class="course-akida-card-image">
+                                    <span>আকীদা</span>
+                                </div>
+                                <div class="course-akida-card-details">
+                                    <div class="course-akida-card-title">
+                                        বেসিক ইসলামি আকীদা
+                                    </div>
+                                    <div class="course-akida-card-span">
+                                        <span class="course-akida-card-span-class">
+                                            @include('components.icons.folder')
+                                            ২২ ক্লাস
+                                        </span>
 
-                                <span class="course-akida-card-span-class">
-                                    @include('components.icons.clock')
-                                    ৬+ ঘন্টা
-                                </span>
+                                        <span class="course-akida-card-span-class">
+                                            @include('components.icons.clock')
+                                            ৬+ ঘন্টা
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
-                </a>
+                    <div class="akida-single-card">
+                        <a href="#" >
+                            <div class="course-akida-card md:mb-4">
+                                <div class="course-akida-card-image">
+                                    <span>আকীদা</span>
+                                </div>
+                                <div class="course-akida-card-details">
+                                    <div class="course-akida-card-title">
+                                        বেসিক ইসলামি আকীদা
+                                    </div>
+                                    <div class="course-akida-card-span">
+                                        <span class="course-akida-card-span-class">
+                                            @include('components.icons.folder')
+                                            ২২ ক্লাস
+                                        </span>
 
-                <a href="#">
-                    <div class="course-akida-card">
-                        <div class="course-akida-card-image">
-                            <span>আকীদা</span>
-                        </div>
-                        <div class="course-akida-card-details">
-                            <div class="course-akida-card-title">
-                                বেসিক ইসলামি আকীদা
+                                        <span class="course-akida-card-span-class">
+                                            @include('components.icons.clock')
+                                            ৬+ ঘন্টা
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="course-akida-card-span">
-                                <span class="course-akida-card-span-class">
-                                    @include('components.icons.folder')
-                                    ২২ ক্লাস
-                                </span>
-
-                                <span class="course-akida-card-span-class">
-                                    @include('components.icons.clock')
-                                    ৬+ ঘন্টা
-                                </span>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                </a>
-
+                </div>
             </div>
         </div>
-        <!-- Akida Coruse Start End -->
+        <!-- Akida Coruse End -->
 
         <!-- About Islam Start -->
         <div class="default-container lg:pt-16">
