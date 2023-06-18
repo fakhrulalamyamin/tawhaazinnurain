@@ -90,90 +90,96 @@
 
         <!-- All Course Semester Start -->
         <div class="default-container">
-            <div class="course-semester">
-                <a href="#" class="space-y-8">
-                    <div class="course-semester-card">
-                        <div class="course-semester-card-box">
-                            <img src="" alt="" class="course-semester-card-box-image">
-                            <div class="course-semester-card-box-span">
+            <div class="semester-responsive">
+                <a href="#">
+                    <div class="semester-card">
+                        <div class="semester-card-box">
+                            <img src="" alt="" class="semester-card-box-image">
+                            <div class="semester-card-box-span">
                                 Semester One
                                 <br>
                                 The Essentials
                             </div>
                         </div>
 
-                        <div class="course-semester-card-counter">
-                            <div class="course-semester-card-counter-courses">
+                        <div class="semester-card-counter">
+                            <div class="semester-card-counter-courses">
                                 <span>100</span>
                                 <span>Courses</span>
                             </div>
-                            <div class="course-semester-card-counter-videos">
+                            <div class="semester-card-counter-videos">
                                 <span>700+</span>
                                 <span>Videos</span>
                             </div>
                         </div>
                     </div>
+                </a>
 
-                    <div class="course-semester-card">
-                        <div class="course-semester-card-box">
-                            <img src="" alt="" class="course-semester-card-box-image">
-                            <div class="course-semester-card-box-span">
+                <a href="#">
+                    <div class="semester-card">
+                        <div class="semester-card-box">
+                            <img src="" alt="" class="semester-card-box-image">
+                            <div class="semester-card-box-span">
                                 Semester Two
                                 <br>
                                 Foundations
                             </div>
                         </div>
 
-                        <div class="course-semester-card-counter">
-                            <div class="course-semester-card-counter-courses">
+                        <div class="semester-card-counter">
+                            <div class="semester-card-counter-courses">
                                 <span>100</span>
                                 <span>Courses</span>
                             </div>
-                            <div class="course-semester-card-counter-videos">
+                            <div class="semester-card-counter-videos">
                                 <span>700+</span>
                                 <span>Videos</span>
                             </div>
                         </div>
                     </div>
+                </a>
 
-                    <div class="course-semester-card">
-                        <div class="course-semester-card-box">
-                            <img src="" alt="" class="course-semester-card-box-image">
-                            <div class="course-semester-card-box-span">
+                <a  href="#">
+                    <div class="semester-card">
+                        <div class="semester-card-box">
+                            <img src="" alt="" class="semester-card-box-image">
+                            <div class="semester-card-box-span">
                                 Semester Three
                                 <br>
                                 Intermediate
                             </div>
                         </div>
 
-                        <div class="course-semester-card-counter">
-                            <div class="course-semester-card-counter-courses">
+                        <div class="semester-card-counter">
+                            <div class="semester-card-counter-courses">
                                 <span>100</span>
                                 <span>Courses</span>
                             </div>
-                            <div class="course-semester-card-counter-videos">
+                            <div class="semester-card-counter-videos">
                                 <span>700+</span>
                                 <span>Videos</span>
                             </div>
                         </div>
                     </div>
+                </a>
 
-                    <div class="course-semester-card">
-                        <div class="course-semester-card-box">
-                            <img src="" alt="" class="course-semester-card-box-image">
-                            <div class="course-semester-card-box-span">
+                <a href="#">
+                    <div class="semester-card">
+                        <div class="semester-card-box">
+                            <img src="" alt="" class="semester-card-box-image">
+                            <div class="semester-card-box-span">
                                 Semester Four
                                 <br>
                                 Advanced
                             </div>
                         </div>
 
-                        <div class="course-semester-card-counter">
-                            <div class="course-semester-card-counter-courses">
+                        <div class="semester-card-counter">
+                            <div class="semester-card-counter-courses">
                                 <span>100</span>
                                 <span>Courses</span>
                             </div>
-                            <div class="course-semester-card-counter-videos">
+                            <div class="semester-card-counter-videos">
                                 <span>700+</span>
                                 <span>Videos</span>
                             </div>
@@ -191,7 +197,7 @@
                 <div class="courses-content">
                     <div class="courses-devider"></div>
 
-                    <h2 class="courses-heading">গঠনমূলক সিলেবাসের মাধ্যমে ধাপে ধাপে <br>
+                    <h2 class="courses-heading-bottom">গঠনমূলক সিলেবাসের মাধ্যমে ধাপে ধাপে <br>
                         <span class="courses-span">
                             ইসলামের খুটিনাটি
                         </span> বিষয়ে

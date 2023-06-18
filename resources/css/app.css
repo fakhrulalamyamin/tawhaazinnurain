@@ -128,41 +128,46 @@
 /*-- All Coruse End --*/
 
 /*-- Semester Coruse Start --*/
-.course-semester {
+.semester-responsive {
     @apply
-        w-full
+        w-full 
+        grid grid-cols-1
+        gap-6
+        
+        md:grid-cols-2 lg:grid-cols-4
+        md:gap-8
 }
-.course-semester-card {
+.semester-card {
     @apply
         w-full
         bg-gray-100
         rounded
         hover:shadow-md hover:duration-500 transition
 }
-.course-semester-card-box {
+.semester-card-box {
     @apply
         w-full h-56
         bg-blue-500
         rounded
 }
-.course-semester-card-box-image {
+.semester-card-box-image {
 }
-.course-semester-card-box-span {
+.semester-card-box-span {
     @apply
         w-full h-full flex items-center justify-center
         text-center text-2xl text-white font-poppins font-medium leading-8
 }
-.course-semester-card-counter {
+.semester-card-counter {
     @apply
         flex items-center justify-between
         px-6 py-4
         text-lg text-black font-medium font-poppins leading-6
 }
-.course-semester-card-counter-courses {
+.semester-card-counter-courses {
     @apply
         flex flex-col items-center
 }
-.course-semester-card-counter-videos {
+.semester-card-counter-videos {
     @apply
         flex flex-col items-center
 }
