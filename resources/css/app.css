@@ -7,12 +7,14 @@
 .default-container {
     @apply
         container px-6 mx-auto
+
+        md:px-8
 }
 
 .primary-button {
     @apply
         inline-block
-        mt-8 px-8 py-4
+        px-8 py-4
         text-xl bg-primary-0 text-white font-normal font-siliguri rounded
         hover:bg-primary-0/80 hover:shadow-md
         duration-300
@@ -29,41 +31,81 @@
         transition-all duration-500
 }
 
-
-/*-- Hero Start --*/
-.main-logo {
+/*-- Header Start --*/
+.header {
+    @apply
+        relative
+        w-full min-h-screen
+}
+.header-img {
     @apply
         absolute
-        left-0
-        max-w-[20px]
+        w-full h-full
+        -z-10
 }
-.navbar-link {
+.nav {
     @apply
-        mr-4
-        text-xl font-normal text-primary-0
+        px-4 
+        flex items-center justify-between
+}
+.nav-logo {
+    @apply
+        w-[312px] h-[101px]
+}
+.nav-list {
+    @apply
+        hidden
+        lg:flex items-center
+        space-x-4
+}
+.nav-link {
+    @apply
+        text-white text-[20px] font-poppins font-normal
+        duration-300
+        transition-all
+
+        hover:text-primary-0
+}
+.nav-auth {
+    @apply
+        hidden
+        space-x-4
+        lg:block
+}
+.nav-auth-link {
+    @apply
+        text-xl text-primary-0
+        duration-300
+        transition-all
+
         hover:text-primary-0/80
+}
+.hamburger {
+    @apply
+        p-2 rounded-md text-gray-400 
+        inline-flex items-center justify-center 
+        hover:text-gray-500 hover:bg-gray-100 
+        focus:outline-none focus:bg-gray-100 focus:text-gray-500 
+        transition duration-150 ease-in-out
 }
 .hero {
     @apply
         text-center
+        w-full min-h-screen
+        flex flex-col items-center justify-center
+
+        md:text-left md:items-start
 }
-.hero-image {
+.hero-heading {
     @apply
-        absolute
-        max-w-[1440px] overflow-hidden
-        bg-cover bg-center bg-no-repeat
-        left-0 top-0 -z-10
-}
-.hero-heading-primary {
-    @apply
-        mb-4 text-5xl font-bold text-white font-siliguri leading-snug
+        mb-[4px] text-5xl font-bold text-white font-siliguri leading-snug
         lg:text-[70px]
 }
-.hero-heading-primary-span {
+.hero-heading-span {
     @apply
-        text-xl font-normal text-white font-siliguri
+        mb-[0px] text-xl font-normal text-white font-siliguri
 }
-/*-- Hero End --*/
+/*-- Header End --*/
 
 
 /*-- All Coruse Start --*/
@@ -86,7 +128,7 @@
 }
 .courses-devider {
     @apply
-        bg-blue-500
+        bg-primary-0
         w-1/3 h-1 mx-auto mb-4
         md:w-1 md:h-auto md:ml-0 md:mr-0 md:mt-2
 }

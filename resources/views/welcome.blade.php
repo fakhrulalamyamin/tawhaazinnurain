@@ -14,58 +14,80 @@
     </head>
     <body class="antialiased">
 
-        <!-- Hero Start -->
-        <div class="relative max-w-full mx-auto min-h-[786px] bg-center overflow-hidden">
-            <img src="/images/Taw Haa Zin Nurain Hero Image.jpg" alt="" class="hero-image">
-            <div class="container mx-auto">
-                <div class="flex items-center justify-between md:px-6 ">
-
-                    <a href="">
-                        <img src="/images/Taw Haa Zin Nurain Logo.png" alt="Taw Haa Zin Nurain Logo"  class="w-5xl" >
+        <header class="header">
+            <img src="/images/Taw Haa Zin Nurain Hero Image.jpg" alt="" class="header-img">
+            <nav class="nav">
+                <div class="nav-logo">
+                    <a href="#">
+                        <img src="/images/Taw Haa Zin Nurain Logo.png" alt="Taw Haa Zin Nurain Logo" class="w-full h-full">
                     </a>
-
-                    @if (Route::has('login'))
-                        <div class="">
-                            @auth
-                                <a href="{{ url('/dashboard') }}" class="navbar-link">Dashboard</a>
-                            @else
-                                <a href="{{ route('login') }}" class="navbar-link">Log in</a>
-
-                                @if (Route::has('register'))
-                                    <a href="{{ route('register') }}" class="navbar-link">Register</a>
-                                @endif
-                            @endauth
-                        </div>
-                    @endif
-
                 </div>
-            </div>
-            <div class="max-w-7xl mx-auto p-6 lg:p-6">
-                <div class="mt-24 container mx-auto">
-                    <div class="hero">
+                
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Learning Path</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
 
-                        <!-- Content -->
-                        <h1 class="hero-heading-primary">
-                            কুরআন শিখুন
-                            <br>
-                            <span class="text-primary-0"> সহজ </span> পদ্ধতিতে
-                        </h1>
-                        <span class="hero-heading-primary-span">
-                            কুরআনের জ্ঞানের খোজে,
-                            <br>
-                            ত্ব-হা যিন নূরাঈনের আঙিনায় স্বাগতম
-                        </span>
-                        <br>
-                        <a href=""
-                            class="primary-button">
-                            কোর্স সমূহ
-                        </a>
+                @if (Route::has('login'))
+                    <div class="nav-auth">
+                        @auth
+                            <a href="{{ url('/dashboard') }}" class="nav-auth-link">Dashboard</a>
+                        @else
+                            <a href="{{ route('login') }}" class="nav-auth-link">Log in</a>
 
+                            @if (Route::has('register'))
+                                <a href="{{ route('register') }}" class="nav-auth-link">Register</a>
+                            @endif
+                        @endauth
                     </div>
+                @endif
+                
+                
+                <!-- Hamburger -->
+            <div class="-mr-2 flex items-center sm:hidden">
+                <button @click="open = ! open" class="hamburger">
+                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+                        <path :class="{'hidden': open, 'inline-flex': ! open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        <path :class="{'hidden': ! open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            </nav>
+
+            <div class="default-container">
+                <div class="hero">
+                    <h1 class="hero-heading">
+                        কুরআন শিখুন
+                        <br>
+                        <span class="text-primary-0"> সহজ </span> 
+                        পদ্ধতিতে
+                    </h1>
+
+                    <span class="hero-heading-span">
+                            কুরআনের জ্ঞানের খোজে,
+                        <br>
+                            ত্ব-হা যিন নূরাঈনের আঙিনায় স্বাগতম
+                    </span>
+                    <br>
+                    <a href=""
+                        class="primary-button">
+                        কোর্স সমূহ
+                    </a>
                 </div>
             </div>
-        </div>
-        <!-- Hero Start -->
+
+            
+        </header>
 
         <!-- Courses Start -->
         <div class="default-container">
