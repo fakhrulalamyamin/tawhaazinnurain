@@ -67,44 +67,65 @@
 
 
 /*-- All Coruse Start --*/
-.all-course {
+.courses-responsive {
     @apply
-        lg:flex lg:flex-row lg:text-left
-        pt-16
-        text-center
+        pt-16 mb-8
+        flex flex-col items-center justify-center
+        gap-2
+
+        md:flex-row  md:justify-between md:pt-20
+        
 }
-.all-course-text {
+.courses-box {
     @apply
-    lg:w-[44rem] lg:border-l-4 lg:border-primary-0
-    mb-4
-    space-y-6
+        md:flex
 }
-.all-course-text-border {
+.courses-content {
     @apply
-        lg:hidden
-        w-64 h-1 mx-auto
-        bg-primary-0
+        md:flex  md:gap-4
 }
-.all-course-text-heading {
+.courses-devider {
     @apply
-        lg:pl-8
-        text-3xl font-medium text-black font-siliguri
+        bg-blue-500
+        w-1/3 h-1 mx-auto mb-4
+        md:w-1 md:h-auto md:ml-0 md:mr-0 md:mt-2
 }
-.all-course-text-span {
+.courses-heading-top {
+    @apply
+    text-2xl font-medium text-black font-siliguri text-center
+    
+    lg:text-3xl md:text-left
+    lg:pl-8
+}
+.courses-heading-bottom {
+    @apply
+    text-2xl font-medium text-black font-siliguri text-center
+    
+    md:text-3xl md:text-left
+    lg:pl-8
+}
+.courses-span {
     @apply
         text-primary-0
 }
-.all-course-btn {
+.courses-button {
+    @apply
+        flex items-center justify-center
+
+        md:items-center md:justify-end
+}
+.courses-btn {
     @apply
         px-6 py-2
-        text-white text-[22px] font-normal font-siliguri
+        text-white text-base font-normal font-siliguri
         bg-primary-0
         border border-primary-0 rounded
         hover:text-primary-0 hover:bg-transparent hover:border hover:border-primary-0 hover:shadow-md
         transition-all duration-500
+
+        md:text-xl lg:text-[22px]
 }
 /*-- All Coruse End --*/
-
 
 /*-- Semester Coruse Start --*/
 .course-semester {

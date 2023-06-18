@@ -67,21 +67,26 @@
         </div>
         <!-- Hero Start -->
 
-        <!-- All Course Start -->
+        <!-- Courses Start -->
         <div class="default-container">
-            <div class="all-course">
-                <div class="all-course-text">
-                    <div class="all-course-text-border"></div>
-                    <h2 class="all-course-text-heading">অভিজ্ঞ উস্তাদদের সান্যিদ্ধে <span class="all-course-text-span"> কুরআন, হাসিদের </span> আলোকে
-                        ইসলামিক বেসিক বিষয়গুলো শিখুন</h2>
+            <div class="courses-responsive">
+                
+                <div class="courses-content">
+                    <div class="courses-devider"></div>
+
+                    <h2 class="courses-heading-top">অভিজ্ঞ উস্তাদদের সান্যিদ্ধে <span class="courses-span"> কুরআন, হাসিদের </span> আলোকে
+                        <br>
+                        ইসলামিক বেসিক বিষয়গুলো শিখুন
+                    </h2>
                 </div>
-                <div class="flex items-center justify-center">
-                    <button class="all-course-btn">সকল কোর্স</button>
+
+                <div class="courses-button">
+                    <button class="courses-btn">সকল কোর্স</button>
                 </div>
+                
             </div>
-            <button></button>
         </div>
-        <!-- All Course End -->
+        <!-- Courses End -->
 
         <!-- All Course Semester Start -->
         <div class="default-container">
@@ -179,26 +184,29 @@
         </div>
         <!-- All Course Semester End -->
 
-        <!-- All Course Start -->
+        <!-- Courses Start -->
         <div class="default-container">
-            <div class="all-course">
-                <div class="all-course-text">
-                    <div class="all-course-text-border"></div>
-                    <h2 class="all-course-text-heading">গঠনমূলক সিলেবাসের মাধ্যমে ধাপে ধাপে <br>
-                        <span class="all-course-text-span">
+            <div class="courses-responsive">
+                
+                <div class="courses-content">
+                    <div class="courses-devider"></div>
+
+                    <h2 class="courses-heading">গঠনমূলক সিলেবাসের মাধ্যমে ধাপে ধাপে <br>
+                        <span class="courses-span">
                             ইসলামের খুটিনাটি
                         </span> বিষয়ে
                         <br>
                         জ্ঞান অর্জন করুন
                     </h2>
                 </div>
-                <div class="flex items-center justify-center">
-                    <button class="all-course-btn">সকল কোর্স</button>
+
+                <div class="courses-button">
+                    <button class="courses-btn">সকল কোর্স</button>
                 </div>
+                
             </div>
-            <button></button>
         </div>
-        <!-- All Course End -->
+        <!-- Courses End -->
 
         <!-- Akida Coruse Start Start -->
         <div class="default-container">
