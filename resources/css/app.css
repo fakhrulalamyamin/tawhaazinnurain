@@ -311,10 +311,6 @@
 
 }
 
-.about-span {
-
-}
-
 .about-title {
     @apply
         my-2
@@ -370,22 +366,26 @@
 /*-- Testimonial Start --*/
 .testimonial {
     @apply
+        my-16 pt-10 pb-2
         relative
-        w-full h-[300px]
-        my-16 px-8
-        text-center bg-black text-white
+        w-full min-h-min flex-col
+        text-center text-white
         rounded-3xl
         flex items-center
 
-        hover:shadow-gray-500 hover:shadow-md hover:duration-300 transition
+        hover:duration-300 transition
 
-        md:flex
+        md:flex-row
 }
 .testimonial-img {
     @apply
         absolute
-        left-0 right-0 w-full h-full
+        top-0 left-0 w-full h-full
         rounded-2xl overflow-hidden
+}
+.card-right {
+    @apply
+        gap-14
 }
 .card-left {
     @apply
@@ -538,9 +538,6 @@
         flex justify-between
         text-left
 }
-.footer-company {
-
-}
 .footer-item-heading {
     @apply
         mb-4
@@ -564,7 +561,7 @@
 }
 .footer-item-link {
     @apply
-        font-medium font-siliguri
+        text-white/70 font-medium font-siliguri
         hover:text-primary-0 hover:shadow-md hover:duration-300 transition-all
 }
 .copyright {

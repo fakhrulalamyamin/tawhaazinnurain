@@ -23,7 +23,7 @@
         <div class="footer-responsive">
             <div class="footer-content">
                 <a href="#" class="footer-logo">
-                    <img src="/images/Taw Haa Zin Nurain Logo.png" alt="">
+                    <img src="/images/THZN-logo.png" alt="">
                 </a>
 
                 <p class="footer-title">কুরআনের জ্ঞানের খোজে, <br>ত্ব-হা যিন নূরাঈনের আঙিনায় স্বাগতম</p>
