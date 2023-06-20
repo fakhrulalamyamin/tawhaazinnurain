@@ -14,14 +14,14 @@
                     <div class="mr-4 gap-4 block md:hidden mb-4">
                         @auth
                             <li>
-                                <a href="#" class="nav-link">Dashboard</a>
+                                <a href="{{route('dashboard')}}" class="nav-link">Dashboard</a>
                             </li>
                         @else
                             <li>
-                                <a href="#" class="nav-link">Login</a>
+                                <a href="{{route('login')}}" class="nav-link">Login</a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link">Register</a>
+                                <a href="{{route('register')}}" class="nav-link">Register</a>
                             </li>
                         @endauth
                     </div>
@@ -29,7 +29,7 @@
 
 
                 <li>
-                    <a href="#" class="nav-link">All Courses</a>
+                    <a href="{{route('courses')}}" class="nav-link">All Courses</a>
                 </li>
                 <li>
                     <a href="#" class="nav-link">Resources</a>

@@ -31,6 +31,9 @@
         transition-all duration-500
 }
 
+/*-------------------------------------------*/
+/*-------------- Welcome ---------------*/
+/*-------------------------------------------*/
 /*-- Header Start --*/
 .header {
     @apply
@@ -372,8 +375,8 @@
         text-center text-white
         rounded-3xl
         flex items-center
-
-        hover:duration-300 transition
+        hover:shadow-md
+        duration-300 transition
 
         md:flex-row
 }
@@ -595,3 +598,13 @@
         hover:text-primary-0
 }
 /*-- Footer End --*/
+
+/*-------------------------------------------*/
+/*-------------- All Courses ---------------*/
+/*-------------------------------------------*/
+/*-- Long Courses Start --*/
+.long-courses-devider {
+    @apply
+        w-16 h-2 mx-auto mb-4
+        md:w-2 md:h-10 bg-primary-0
+}
