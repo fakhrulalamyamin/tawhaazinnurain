@@ -24,13 +24,41 @@
 
     <div class="p-4 sm:ml-64">
         <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
-            <div class="grid grid-cols-2 gap-4 mb-4">
-                <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-                    <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-                </div>
-                <div class="flex items-center justify-center rounded bg-gray-50 h-28 dark:bg-gray-800">
-                    <p class="text-2xl text-gray-400 dark:text-gray-500">+</p>
-                </div>
+            <div class="grid grid-cols-2 gap-4  font-poppins">
+                <a href="" class="min-h-content">
+                <div class="px-6 py-6 flex items-center justify-between rounded bg-gray-50 min-h-content">
+                        <div class="w-1/2 text-4xl">
+                            <span>Course</span>
+                            <span>Enrolled</span>
+                        </div>
+                        <div class="w-1/2 text-right">
+                            <span class="text-8xl">12</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="" class="min-h-content">
+                    <div class="px-6 py-6 flex items-center justify-between rounded bg-gray-50 min-h-content">
+                        <div class="w-1/2 text-4xl">
+                            <span>Course</span>
+                            <span>Active</span>
+                        </div>
+                        <div class="w-1/2 text-right">
+                            <span class="text-8xl">5</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="min-h-content">
+                    <div class="px-6 py-6 flex items-center justify-between rounded bg-gray-50 min-h-content">
+                        <div class="w-1/2 text-4xl">
+                            <span>Course</span>
+                            <span>Completed</span>
+                        </div>
+                        <div class="w-1/2 text-right">
+                            <span class="text-8xl">7</span>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
