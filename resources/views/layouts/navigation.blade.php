@@ -1,11 +1,11 @@
 <nav x-data="{ open: false }" class="pb-[5px] bg-white border-b-[2px] border-gray-100">
     <!-- Primary Navigation Menu -->
-    <div class="max-w-7xl mx-auto  ">
+    <div class="max-w-7xl mx-auto h-full">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a href="{{ route('dashboard') }}">
+                    <a href="/">
                         <x-application-logo class="block h-9 w-auto fill-current text-gray-800" />
                     </a>
                 </div>
