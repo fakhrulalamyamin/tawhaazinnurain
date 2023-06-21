@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @vite('resources/css/app.css')
 
+        <!-- Flowbit Js -->
+        @vite(['resources/css/app.css','resources/js/app.js'])
+
         <!-- Swiper CSS -->
         <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/swiper-bundle.min.css">
@@ -13,63 +16,18 @@
 
     </head>
     <body class="antialiased">
-
         <header class="header">
             <img src="/images/Taw Haa Zin Nurain Hero Image.jpg" alt="" class="header-img">
-            <nav class="nav">
-                <div class="nav-logo">
-                    <a href="#">
-                        <img src="/images/Taw Haa Zin Nurain Logo.png" alt="Taw Haa Zin Nurain Logo" class="w-full h-full">
-                    </a>
-                </div>
-                
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Learning Path</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
-                </ul>
 
-                @if (Route::has('login'))
-                    <div class="nav-auth">
-                        @auth
-                            <a href="{{ url('/dashboard') }}" class="nav-auth-link">Dashboard</a>
-                        @else
-                            <a href="{{ route('login') }}" class="nav-auth-link">Log in</a>
-
-                            @if (Route::has('register'))
-                                <a href="{{ route('register') }}" class="nav-auth-link">Register</a>
-                            @endif
-                        @endauth
-                    </div>
-                @endif
-                
-                
-                <!-- Hamburger -->
-            <div class="-mr-2 flex items-center sm:hidden">
-                <button @click="open = ! open" class="hamburger">
-                    <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                        <path :class="{'hidden': open, 'inline-flex': ! open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        <path :class="{'hidden': ! open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                </button>
-            </div>
-            </nav>
+            <!-- Navigation -->
+            @include('components.default-navigation')
 
             <div class="default-container">
                 <div class="hero">
                     <h1 class="hero-heading">
                         কুরআন শিখুন
                         <br>
-                        <span class="text-primary-0"> সহজ </span> 
+                        <span class="text-primary-0"> সহজ </span>
                         পদ্ধতিতে
                     </h1>
 
@@ -85,137 +43,35 @@
                     </a>
                 </div>
             </div>
-
-            
         </header>
 
         <!-- Courses Start -->
         <div class="default-container">
             <div class="courses-responsive">
-                
+
                 <div class="courses-content">
                     <div class="courses-devider"></div>
 
-                    <h2 class="courses-heading-top">অভিজ্ঞ উস্তাদদের সান্যিদ্ধে <span class="courses-span"> কুরআন, হাসিদের </span> আলোকে
-                        <br>
-                        ইসলামিক বেসিক বিষয়গুলো শিখুন
+                    <h2 class="courses-heading-top">অভিজ্ঞ উস্তাদদের সান্যিদ্ধে <br> <span class="courses-span"> কুরআন, হাসিদের </span> আলোকে ইসলামিক <br> বেসিক বিষয়গুলো শিখুন
                     </h2>
                 </div>
 
                 <div class="courses-button">
                     <button class="courses-btn">সকল কোর্স</button>
                 </div>
-                
+
             </div>
         </div>
         <!-- Courses End -->
 
         <!-- All Course Semester Start -->
-        <div class="default-container">
-            <div class="semester-responsive">
-                <a href="#">
-                    <div class="semester-card">
-                        <div class="semester-card-box">
-                            <img src="" alt="" class="semester-card-box-image">
-                            <div class="semester-card-box-span">
-                                Semester One
-                                <br>
-                                The Essentials
-                            </div>
-                        </div>
-
-                        <div class="semester-card-counter">
-                            <div class="semester-card-counter-courses">
-                                <span>100</span>
-                                <span>Courses</span>
-                            </div>
-                            <div class="semester-card-counter-videos">
-                                <span>700+</span>
-                                <span>Videos</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="#">
-                    <div class="semester-card">
-                        <div class="semester-card-box">
-                            <img src="" alt="" class="semester-card-box-image">
-                            <div class="semester-card-box-span">
-                                Semester Two
-                                <br>
-                                Foundations
-                            </div>
-                        </div>
-
-                        <div class="semester-card-counter">
-                            <div class="semester-card-counter-courses">
-                                <span>100</span>
-                                <span>Courses</span>
-                            </div>
-                            <div class="semester-card-counter-videos">
-                                <span>700+</span>
-                                <span>Videos</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a  href="#">
-                    <div class="semester-card">
-                        <div class="semester-card-box">
-                            <img src="" alt="" class="semester-card-box-image">
-                            <div class="semester-card-box-span">
-                                Semester Three
-                                <br>
-                                Intermediate
-                            </div>
-                        </div>
-
-                        <div class="semester-card-counter">
-                            <div class="semester-card-counter-courses">
-                                <span>100</span>
-                                <span>Courses</span>
-                            </div>
-                            <div class="semester-card-counter-videos">
-                                <span>700+</span>
-                                <span>Videos</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-
-                <a href="#">
-                    <div class="semester-card">
-                        <div class="semester-card-box">
-                            <img src="" alt="" class="semester-card-box-image">
-                            <div class="semester-card-box-span">
-                                Semester Four
-                                <br>
-                                Advanced
-                            </div>
-                        </div>
-
-                        <div class="semester-card-counter">
-                            <div class="semester-card-counter-courses">
-                                <span>100</span>
-                                <span>Courses</span>
-                            </div>
-                            <div class="semester-card-counter-videos">
-                                <span>700+</span>
-                                <span>Videos</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
+        @include('components.long-courses')
         <!-- All Course Semester End -->
 
         <!-- Courses Start -->
         <div class="default-container">
             <div class="courses-responsive">
-                
+
                 <div class="courses-content">
                     <div class="courses-devider"></div>
 
@@ -231,121 +87,13 @@
                 <div class="courses-button">
                     <button class="courses-btn">সকল কোর্স</button>
                 </div>
-                
+
             </div>
         </div>
         <!-- Courses End -->
 
         <!-- Akida Coruse Start Start -->
-        <div class="default-container">
-            <div class="akida-responsive">
-                <div class="akida-due-card">
-                    <div class="akida-single-card">
-                        <a href="#" >
-                            <div class="course-akida-card md:mb-4">
-                                <div class="course-akida-card-image">
-                                    <span>আকীদা</span>
-                                </div>
-                                <div class="course-akida-card-details">
-                                    <div class="course-akida-card-title">
-                                        বেসিক ইসলামি আকীদা
-                                    </div>
-                                    <div class="course-akida-card-span">
-                                        <span class="course-akida-card-span-class">
-                                            @include('components.icons.folder')
-                                            ২২ ক্লাস
-                                        </span>
-
-                                        <span class="course-akida-card-span-class">
-                                            @include('components.icons.clock')
-                                            ৬+ ঘন্টা
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="akida-single-card">
-                        <a href="#" >
-                            <div class="course-akida-card md:mb-4">
-                                <div class="course-akida-card-image">
-                                    <span>আকীদা</span>
-                                </div>
-                                <div class="course-akida-card-details">
-                                    <div class="course-akida-card-title">
-                                        বেসিক ইসলামি আকীদা
-                                    </div>
-                                    <div class="course-akida-card-span">
-                                        <span class="course-akida-card-span-class">
-                                            @include('components.icons.folder')
-                                            ২২ ক্লাস
-                                        </span>
-
-                                        <span class="course-akida-card-span-class">
-                                            @include('components.icons.clock')
-                                            ৬+ ঘন্টা
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-                <div class="akida-due-card">
-                    <div class="akida-single-card">
-                        <a href="#" >
-                            <div class="course-akida-card md:mb-4">
-                                <div class="course-akida-card-image">
-                                    <span>আকীদা</span>
-                                </div>
-                                <div class="course-akida-card-details">
-                                    <div class="course-akida-card-title">
-                                        বেসিক ইসলামি আকীদা
-                                    </div>
-                                    <div class="course-akida-card-span">
-                                        <span class="course-akida-card-span-class">
-                                            @include('components.icons.folder')
-                                            ২২ ক্লাস
-                                        </span>
-
-                                        <span class="course-akida-card-span-class">
-                                            @include('components.icons.clock')
-                                            ৬+ ঘন্টা
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="akida-single-card">
-                        <a href="#" >
-                            <div class="course-akida-card md:mb-4">
-                                <div class="course-akida-card-image">
-                                    <span>আকীদা</span>
-                                </div>
-                                <div class="course-akida-card-details">
-                                    <div class="course-akida-card-title">
-                                        বেসিক ইসলামি আকীদা
-                                    </div>
-                                    <div class="course-akida-card-span">
-                                        <span class="course-akida-card-span-class">
-                                            @include('components.icons.folder')
-                                            ২২ ক্লাস
-                                        </span>
-
-                                        <span class="course-akida-card-span-class">
-                                            @include('components.icons.clock')
-                                            ৬+ ঘন্টা
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        @include('components.short-courses')
         <!-- Akida Coruse End -->
 
         <!-- About Islam Start -->
@@ -496,7 +244,8 @@
 
         <!-- Testimonial End -->
         <div class="default-container">
-            <div class="testimonial relative">
+            <div class="testimonial">
+                <img src="/images/testimonial.jpeg" alt="" class="testimonial-img">
                 <div class="card-left relative">
                     <h2 class="card-left-text">
                         <span class="text-span-1"> আলহামদুলিল্লাহ! ইতিমধ্যে </span> <span class="text-span-2"> <span class="text-span-3"> ৯০০০+ মানুষ প্রতিদিন ইকরা </span> <span class="text-span-4"> এরাবিক স্কুলের সাথে </span> কুরআন শিখছে</h2>
@@ -531,92 +280,8 @@
         </div>
         <!-- Testimonial End -->
 
-        <!-- Register Start -->
-        <div class="default-container">
-            <div class="register">
-                <div class="register-content">
-                    <h2 class="register-heading">আজই জয়েন করুন বাংলাদেশের সবচেয়ে <br> ব্যতিক্রমধর্মী
-                        <span class="register-heading-sub">
-                            অনলাইন মাদ্রাসায়
-                        </span>
-                    </h2>
-                    <p class="register-span">ফ্রি রেজিস্ট্রেশন করে শেখা শুরু করে দিন</p>
-                    <button href="#" class="register-button">রেজিষ্ট্রেশন করুন</button>
-                </div>
-
-                <div class="register-image">
-                    <img src="/images/register.png" alt="" class="register-img">
-                </div>
-            </div>
-        </div>
-        <!-- Register End -->
-
         <!-- Footer Start -->
-        <footer class="footer">
-            <div class="default-container">
-                <div class="footer-responsive">
-                    <div class="footer-content">
-                        <a href="#" class="footer-logo">
-                            <img src="/images/Taw Haa Zin Nurain Logo.png" alt="">
-                        </a>
-
-                        <p class="footer-title">কুরআনের জ্ঞানের খোজে, <br>ত্ব-হা যিন নূরাঈনের আঙিনায় স্বাগতম</p>
-
-                        <div class="footer-contact">
-                            <p>Email: info@tawhaazinnurain.com</p>
-                            <p>Phone: 017 404 33 580</p>
-                        </div>
-                    </div>
-
-                    <div class="footer-link">
-                        <ul class="footer-list">
-                            <li class="footer-item-heading">কোম্পানী</li>
-                            <li class="footer-item">
-                                <a href="#" class="footer-item-link">আমাদের সম্পর্কে</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="#" class="footer-item-link">ক্যারিয়ার</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="#" class="footer-item-link">প্রাইভেসি পলিসি</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="#" class="footer-item-link">রিফান্ড পলিসি</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="#" class="footer-item-link">যোগাযোগ</a>
-                            </li>
-                        </ul>
-
-                        <ul class="footer-list">
-                            <li class="footer-item-heading">কোর্সসমূহ</li>
-                            <li class="footer-item">
-                                <a href="#" class="footer-item-link">লার্নিং পথ</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="#" class="footer-item-link">সকল কোর্স</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="#" class="footer-item-link">রিসোর্স</a>
-                            </li>
-                            <li class="footer-item">
-                                <a href="#" class="footer-item-link">প্রাসিং</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-                <hr>
-
-                <div class="copyright">
-                    <div>
-                        <h3 class="copyright-heading">&copy; IQRA Arabic School 2022 | All rights reserved.</h3>
-                        <p class="copyright-span">Developed By <a href="#" class="copyright-company">YEB Ltd.</a></p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        @include('components.footer')
         <!-- Footer End -->
 
     <!-- Swiper Js -->

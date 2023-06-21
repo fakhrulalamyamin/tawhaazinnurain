@@ -31,6 +31,9 @@
         transition-all duration-500
 }
 
+/*-------------------------------------------*/
+/*-------------- Welcome ---------------*/
+/*-------------------------------------------*/
 /*-- Header Start --*/
 .header {
     @apply
@@ -45,26 +48,28 @@
 }
 .nav {
     @apply
-        px-4 
+        px-4
         flex items-center justify-between
 }
 .nav-logo {
     @apply
-        w-[312px] h-[101px]
+        w-[200px] h-auto
+        lg:w-[250px] lg:h-auto
 }
 .nav-list {
     @apply
-        hidden
-        lg:flex items-center
-        space-x-4
+        font-medium
+        flex flex-col p-4
+        md:p-0 mt-4 bg-gray-50
+        border border-gray-100 rounded-lg
+        md:flex-row md:space-x-2 md:mt-0 md:border-0 md:bg-white
 }
 .nav-link {
     @apply
-        text-white text-[20px] font-poppins font-normal
-        duration-300
-        transition-all
+        block py-2 pl-3 pr-1 ml-4
+        text-base font-poppins font-normal text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent
 
-        hover:text-primary-0
+        md:border-0 md:hover:text-primary-0 md:p-0 lg:text-xl
 }
 .nav-auth {
     @apply
@@ -74,18 +79,20 @@
 }
 .nav-auth-link {
     @apply
-        text-xl text-primary-0
+        text-base font-poppins font-normal
+        text-black
         duration-300
         transition-all
+        hover:text-primary-0
 
-        hover:text-primary-0/80
+        ml-4
 }
 .hamburger {
     @apply
-        p-2 rounded-md text-gray-400 
-        inline-flex items-center justify-center 
-        hover:text-gray-500 hover:bg-gray-100 
-        focus:outline-none focus:bg-gray-100 focus:text-gray-500 
+        p-2 rounded-md text-gray-400
+        inline-flex items-center justify-center
+        hover:text-gray-500 hover:bg-gray-100
+        focus:outline-none focus:bg-gray-100 focus:text-gray-500
         transition duration-150 ease-in-out
 }
 .hero {
@@ -116,7 +123,7 @@
         gap-2
 
         md:flex-row  md:justify-between md:pt-20
-        
+
 }
 .courses-box {
     @apply
@@ -135,14 +142,14 @@
 .courses-heading-top {
     @apply
     text-2xl font-medium text-black font-siliguri text-center
-    
+
     lg:text-3xl md:text-left
     lg:pl-8
 }
 .courses-heading-bottom {
     @apply
     text-2xl font-medium text-black font-siliguri text-center
-    
+
     md:text-3xl md:text-left
     lg:pl-8
 }
@@ -172,10 +179,10 @@
 /*-- Semester Coruse Start --*/
 .semester-responsive {
     @apply
-        w-full 
+        w-full
         grid grid-cols-1
         gap-6
-        
+
         md:grid-cols-2 lg:grid-cols-4
         md:gap-8
 }
@@ -307,10 +314,6 @@
 
 }
 
-.about-span {
-
-}
-
 .about-title {
     @apply
         my-2
@@ -366,14 +369,26 @@
 /*-- Testimonial Start --*/
 .testimonial {
     @apply
-        w-full
-        my-16 px-8 py-16
-        text-center bg-black text-white
-        rounded-md
+        my-16 pt-10 pb-2
+        relative
+        w-full min-h-min flex-col
+        text-center text-white
+        rounded-3xl
+        flex items-center
+        hover:shadow-md
+        duration-300 transition
 
-        hover:shadow-gray-500 hover:shadow-md hover:duration-300 transition
-
-        md:flex
+        md:flex-row
+}
+.testimonial-img {
+    @apply
+        absolute
+        top-0 left-0 w-full h-full
+        rounded-2xl overflow-hidden
+}
+.card-right {
+    @apply
+        gap-14
 }
 .card-left {
     @apply
@@ -408,6 +423,7 @@
         text-white/80
         flex justify-between
         px-16 my-8 text-left
+        z-10
 
         md:w-1/2
 }
@@ -525,9 +541,6 @@
         flex justify-between
         text-left
 }
-.footer-company {
-
-}
 .footer-item-heading {
     @apply
         mb-4
@@ -551,7 +564,7 @@
 }
 .footer-item-link {
     @apply
-        font-medium font-siliguri
+        text-white/70 font-medium font-siliguri
         hover:text-primary-0 hover:shadow-md hover:duration-300 transition-all
 }
 .copyright {
@@ -585,3 +598,13 @@
         hover:text-primary-0
 }
 /*-- Footer End --*/
+
+/*-------------------------------------------*/
+/*-------------- All Courses ---------------*/
+/*-------------------------------------------*/
+/*-- Long Courses Start --*/
+.long-courses-devider {
+    @apply
+        w-16 h-2 mx-auto mb-4
+        md:w-2 md:h-10 bg-primary-0
+}
