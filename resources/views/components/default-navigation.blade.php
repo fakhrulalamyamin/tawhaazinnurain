@@ -14,7 +14,7 @@
                     <div class="mr-4 gap-4 block md:hidden mb-4">
                         @auth
                             <li>
-                                <a href="{{route('dashboard')}}" class="nav-link">Dashboard</a>
+                                <a href="{{route('dashboard')}}" class="nav-link primary-button">Dashboard</a>
                             </li>
                         @else
                             <li>
@@ -41,7 +41,7 @@
             @if (Route::has('login'))
                 <div class="ml-[3px]">
                     @auth
-                        <a href="{{ url('/dashboard') }}" class="nav-auth-link">Dashboard</a>
+                        <a href="{{ url('/dashboard') }}" class="primary-button">Dashboard</a>
                     @else
                         <a href="{{ route('login') }}" class="nav-auth-link">Log in</a>
 

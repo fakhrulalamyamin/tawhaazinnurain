@@ -16,19 +16,60 @@
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
-            @include('layouts.navigation')
+            {{-- @include('layouts.navigation') --}}
+            <div class="font-semibold text-xl text-gray-800 leading-tight">
+                @include('layouts.navigation')
+            </div>
 
-            <!-- Page Heading -->
-            @if (isset($header))
-                <header class="bg-white shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
-                    </div>
-                </header>
+            {{-- @include('layouts.sidebar') --}}
+            <div class="mt-[72px]">
+                @include('layouts.sidebar')
+            </div>
+
+            <!-- Page My Dashboard -->
+            @if (isset($dashboard))
+                <dashboard>
+                    {{ $dashboard }}
+                </dashboard>
+            @endif
+
+            <!-- Page My Profile -->
+            @if (isset($myProfile))
+                <myProfile>
+                    {{ $myProfile }}
+                </myProfile>
+            @endif
+
+            <!-- Page My Courses -->
+            @if (isset($myCourses))
+                <myCourses>
+                    {{ $myCourses }}
+                </myCourses>
+            @endif
+
+            <!-- Page Forum -->
+            @if (isset($forum))
+                <forum>
+                    {{ $forum }}
+                </forum>
+            @endif
+
+            <!-- Page Payment -->
+            @if (isset($payment))
+                <payment>
+                    {{ $payment }}
+                </payment>
+            @endif
+
+            <!-- Page Setting -->
+            @if (isset($setting))
+                <setting>
+                    {{ $setting }}
+                </setting>
             @endif
 
             <!-- Page Content -->
-            <main>
+            <main class="min-content">
                 {{ $slot }}
             </main>
         </div>

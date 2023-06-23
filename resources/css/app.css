@@ -11,14 +11,38 @@
         md:px-8
 }
 
+.success-button {
+    @apply
+        inline-block
+        px-4 py-2 text-center
+        text-sm bg-green-400 text-white font-normal font-poppins rounded
+        hover:bg-green-400/80 hover:shadow-md
+        duration-300
+        transition
+
+        md:text-[14px] lg:text-xl
+}
+.danger-button {
+    @apply
+        inline-block
+        px-4 py-2 text-center
+        text-sm bg-red-400 text-white font-normal font-poppins rounded
+        hover:bg-red-400/80 hover:shadow-md
+        duration-300
+        transition
+
+        md:text-[14px] lg:text-xl
+}
 .primary-button {
     @apply
         inline-block
-        px-8 py-4
-        text-xl bg-primary-0 text-white font-normal font-siliguri rounded
+        px-4 py-2
+        text-sm bg-primary-0 text-white font-normal font-siliguri rounded
         hover:bg-primary-0/80 hover:shadow-md
         duration-300
         transition
+
+        md:text-base lg:text-xl
 }
 
 .secondary-button {
@@ -29,6 +53,17 @@
         border border-primary-0 rounded
         hover:text-primary-0 hover:bg-transparent hover:border hover:border-primary-0 hover:shadow-md
         transition-all duration-500
+}
+.tertiary-button {
+    @apply
+        inline-block
+        px-8 py-2
+        text-sm bg-primary-0 text-white font-normal font-siliguri rounded
+        hover:bg-primary-0/80 hover:shadow-md
+        duration-300
+        transition
+
+        md:text-base lg:text-xl
 }
 
 /*-------------------------------------------*/
@@ -230,6 +265,13 @@
 
         md:gap-8 md:grid-cols-2
 }
+.akida-responsive-secondary {
+    @apply
+        grid grid-cols-1
+        gap-4
+
+        md:gap-8 lg:grid-cols-2
+}
 .akida-due-card {
     @apply
         space-y-4
@@ -241,6 +283,13 @@
         duration-300
         transition-all
         hover:shadow-md
+}
+.akida-single-card-secondary {
+    @apply
+        duration-300
+        transition-all
+        shadow-md
+        hover:shadow
 }
 .course-akida-card {
     @apply
@@ -272,6 +321,12 @@
 
         md:text-[1.21rem]
         lg:text-2xl
+}
+.course-akida-card-title-secondary {
+    @apply
+        text-2xl font-siliguri font-medium
+
+        md:text-[1.4rem]
 }
 .course-akida-card-span {
     @apply
@@ -607,4 +662,108 @@
     @apply
         w-16 h-2 mx-auto mb-4
         md:w-2 md:h-10 bg-primary-0
+}
+
+
+/*-------------------------------------------*/
+/*-------------- Dashboard My Profile ---------------*/
+/*-------------------------------------------*/
+.profile {
+    @apply
+        w-full min-h-min
+
+}
+.profile-header {
+    @apply
+        w-full text-center lg:text-left lg:flex lg:items-center lg:justify-center
+}
+.profile-image {
+    @apply
+        w-[90px] md:w-[150px] lg:w-[200px] lg:h-[90px] mx-auto lg:ml-48
+}
+.profile-heading {
+    @apply
+        lg:flex-col lg:w-full lg:mt-8 lg:ml-8 lg:space-y-2
+}
+.profile-img {
+    @apply
+        w-[200px] h-auto mx-auto mb-4
+        ring-4 ring-primary-0 shadow-md hover:shadow
+        rounded-full
+
+        lg:flex lg:ml-0 lg:w-[110px]
+}
+.profile-tittle {
+    @apply
+        text-lg font-poppins font-semibold text-primary-0
+        md:text-3xl xl:text-[40px]
+
+        lg:text-left
+}
+.profile-description {
+    @apply
+        mb-4
+        text-primary-0/70 text-base  font-poppins font-normal
+        md:text-lg lg:text-xl
+}
+.profile-details {
+    @apply
+        w-full flex items-center justify-center text-xs md:text-base lg:mt-8
+}
+.profile-btn {
+    @apply
+        mt-4
+        flex items-center justify-center
+}
+
+/*-------------------------------------------*/
+/*-------------- Dashboard Forum Styling ---------------*/
+/*-------------------------------------------*/
+.forum {
+    @apply
+        mt-8 px-6 py-4 bg-gray-100
+        flex items-center justify-between
+        w-full rounded-md shadow-md
+        hover:shadow
+
+        duration-300 transition-all
+}
+.forum-content {
+    @apply
+        font-siliguri space-y-2
+}
+.content-title {
+    @apply
+        font-semibold text-[14px] text-gray-900
+        md:text-xl lg:text-2xl
+}
+.title-sub {
+    @apply
+        font-normal text-sm text-gray-700
+        md:text-base lg:text-lg
+}
+
+.forum-btn {
+    @apply
+        w-1/5 text-center
+        space-y-2
+        flex flex-col
+}
+
+/*-------------------------------------------*/
+/*-------------- Dashboard Setting Styling ---------------*/
+/*-------------------------------------------*/
+.setting-text {
+    @apply
+        text-right font-poppins font-semibold
+}
+.setting-label {
+    @apply
+        flex items-center justify-end
+        font-poppins font-semibold
+}
+.setting-input {
+    @apply
+        px-2 py-1
+        border-gray-200
 }
