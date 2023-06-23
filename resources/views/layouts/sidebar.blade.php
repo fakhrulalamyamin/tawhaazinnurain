@@ -40,10 +40,10 @@
                     </x-nav-link>
                 </li>
                 <li>
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                    <x-nav-link :href="route('settings')" :active="request()->routeIs('settings')">
                         @include('components.icons.setting')
                         <span class="flex-1 ml-3 whitespace-nowrap">Settings</span>
-                    </a>
+                    </x-nav-link>
                 </li>
             </ul>
             <ul>

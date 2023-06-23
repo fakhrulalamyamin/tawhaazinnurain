@@ -6,6 +6,7 @@ use App\Http\Controllers\MyCoursesController;
 use App\Http\Controllers\MyProfileController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\SettingsController;
 use App\Http\Controllers\SliderController;
 use Illuminate\Support\Facades\Route;
 
@@ -40,6 +41,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/my-courses', [MyCoursesController::class, 'my_courses'])->name('my-courses');
     Route::get('/forum', [ForumController::class, 'forum'])->name('forum');
     Route::get('/payment', [PaymentController::class, 'payment'])->name('payment');
+    Route::get('/setting', [SettingsController::class, 'setting'])->name('settings');
 });
 
 require __DIR__.'/auth.php';
