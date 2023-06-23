@@ -749,3 +749,21 @@
         space-y-2
         flex flex-col
 }
+
+/*-------------------------------------------*/
+/*-------------- Dashboard Setting Styling ---------------*/
+/*-------------------------------------------*/
+.setting-text {
+    @apply
+        text-right font-poppins font-semibold
+}
+.setting-label {
+    @apply
+        flex items-center justify-end
+        font-poppins font-semibold
+}
+.setting-input {
+    @apply
+        px-2 py-1
+        border-gray-200
+}

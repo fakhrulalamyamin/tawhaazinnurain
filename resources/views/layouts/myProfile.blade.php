@@ -1,4 +1,4 @@
-<div class="-mt-16 p-4 sm:ml-64">
+<div class="p-4 sm:ml-64">
     <div class="p-4 border-2 border-gray-200 bg-green-200 border-dashed rounded-lg shadow">
         <div class="profile">
             <div class="profile-header">

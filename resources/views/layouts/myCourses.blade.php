@@ -1,4 +1,4 @@
-<div class="-mt-16 p-4 sm:ml-64">
+<div class="p-4 sm:ml-64">
     <div class="p-4 pb-0 border-2 border-gray-200 border-dashed rounded-lg shadow">
         <div class="akida-responsive-secondary">
             <div class="akida-due-card">
