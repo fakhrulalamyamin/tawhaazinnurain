@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AllCourses;
+use App\Http\Controllers\ForumController;
 use App\Http\Controllers\MyCoursesController;
 use App\Http\Controllers\MyProfileController;
 use App\Http\Controllers\ProfileController;
@@ -33,8 +34,10 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
+    //all pages
     Route::get('/my-profile', [MyProfileController::class, 'profile'])->name('my-profile');
     Route::get('/my-courses', [MyCoursesController::class, 'my_courses'])->name('my-courses');
+    Route::get('/forum', [ForumController::class, 'forum'])->name('forum');
 });
 
 require __DIR__.'/auth.php';

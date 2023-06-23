@@ -28,7 +28,7 @@
                     </x-nav-link>
                 </li>
                 <li>
-                    <x-nav-link :href="route('my-profile')" :active="request()->routeIs('my-profile')">
+                    <x-nav-link :href="route('forum')" :active="request()->routeIs('forum')">
                         @include('components.icons.forum')
                         <span class="flex-1 ml-3 whitespace-nowrap">Forum</span>
                     </x-nav-link>
