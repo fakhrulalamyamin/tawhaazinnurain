@@ -16,23 +16,22 @@
                     </x-nav-link>
                 </li>
                 <li>
-
                     <x-nav-link :href="route('my-profile')" :active="request()->routeIs('my-profile')">
                         @include('components.icons.profile')
                         <span class="flex-1 ml-3 whitespace-nowrap">My Profile</span>
                     </x-nav-link>
                 </li>
                 <li>
-                    <a href="#" class="active:bg-blue-600 flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                    <x-nav-link :href="route('my-courses')" :active="request()->routeIs('my-courses')">
                         @include('components.icons.courses')
                         <span class="flex-1 ml-3 whitespace-nowrap">My Courses</span>
-                    </a>
+                    </x-nav-link>
                 </li>
                 <li>
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                    <x-nav-link :href="route('my-profile')" :active="request()->routeIs('my-profile')">
                         @include('components.icons.forum')
                         <span class="flex-1 ml-3 whitespace-nowrap">Forum</span>
-                    </a>
+                    </x-nav-link>
                 </li>
                 <li>
                     <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">

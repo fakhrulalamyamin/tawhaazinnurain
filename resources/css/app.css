@@ -232,6 +232,13 @@
 
         md:gap-8 md:grid-cols-2
 }
+.akida-responsive-secondary {
+    @apply
+        grid grid-cols-1
+        gap-4
+
+        md:gap-8 lg:grid-cols-2
+}
 .akida-due-card {
     @apply
         space-y-4
@@ -243,6 +250,13 @@
         duration-300
         transition-all
         hover:shadow-md
+}
+.akida-single-card-secondary {
+    @apply
+        duration-300
+        transition-all
+        shadow-md
+        hover:shadow
 }
 .course-akida-card {
     @apply
@@ -274,6 +288,12 @@
 
         md:text-[1.21rem]
         lg:text-2xl
+}
+.course-akida-card-title-secondary {
+    @apply
+        text-2xl font-siliguri font-medium
+
+        md:text-[1.4rem]
 }
 .course-akida-card-span {
     @apply
