@@ -34,10 +34,10 @@
                     </x-nav-link>
                 </li>
                 <li>
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                    <x-nav-link :href="route('payment')" :active="request()->routeIs('payment')">
                         @include('components.icons.dolor')
                         <span class="flex-1 ml-3 whitespace-nowrap">Payments</span>
-                    </a>
+                    </x-nav-link>
                 </li>
                 <li>
                     <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
