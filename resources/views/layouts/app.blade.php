@@ -37,7 +37,7 @@
             @endif
 
             <!-- Page Content -->
-            <main class="pt-20 min-content">
+            <main class="min-content">
 
                 {{ $slot }}
             </main>

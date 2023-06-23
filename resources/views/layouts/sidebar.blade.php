@@ -10,16 +10,17 @@
         <div class="w-full h-[88vh] flex flex-col justify-between">
             <ul class="space-y-2 font-medium">
                 <li>
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         @include('components.icons.dashboard')
-                        <span class="ml-3">Dashboard</span>
+                        <span class="flex-1 ml-3 whitespace-nowrap">Dashboard</span>
                     </x-nav-link>
                 </li>
                 <li>
-                    <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
+
+                    <x-nav-link :href="route('my-profile')" :active="request()->routeIs('my-profile')">
                         @include('components.icons.profile')
                         <span class="flex-1 ml-3 whitespace-nowrap">My Profile</span>
-                    </a>
+                    </x-nav-link>
                 </li>
                 <li>
                     <a href="#" class="active:bg-blue-600 flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700">
