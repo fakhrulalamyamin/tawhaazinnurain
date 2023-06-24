@@ -1,12 +1,12 @@
 <div class=" p-4 sm:ml-64">
-    <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
+    <div class="p-4 pb-8 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
 
-            <div class="courses-responsive">
-                <div class="courses-content">
-                    <div class="long-courses-devider"></div>
-                    <h2 class="courses-heading-top">Welcome</h2>
-                </div>
+        <div class="courses-responsive -mt-16">
+            <div class="courses-content">
+                <div class="long-courses-devider"></div>
+                <h2 class="courses-heading-top">Welcome</h2>
             </div>
+        </div>
 
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4  font-poppins">

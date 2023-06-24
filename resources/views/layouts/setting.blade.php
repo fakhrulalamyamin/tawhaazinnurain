@@ -1,7 +1,7 @@
-<div class="p-4 sm:ml-64">
-    <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg shadow">
+<div class="p-4 sm:ml-64 min-h-min">
+    <div class="p-4 py-8 w-full max-h-screen bg-green-100 border-gray-200 rounded-lg">
         <form action="">
-            <div class="grid grid-cols-2 space-x-2 text-base">
+            <div class="w-full grid grid-cols-2 space-x-2 text-base">
                 <div class="setting-text">
                     <p class="">Email:</p>
                 </div>
@@ -15,14 +15,17 @@
                 <div>
                     <p>01740433580</p>
                 </div>
+            </div>
 
-                <label for="new-password" class="setting-label">New Password:</label>
-                <div class="mt-4 mb-2">
-                    <input id="new-password" class="setting-input" type="text" placeholder="Enter New Password">
+            <div class="mt-4 space-y-2">
+                <div class="grid grid-cols-2 space-x-2 text-base items-center">
+                    <label for="" class="block text-right setting-text">New Password:</label>
+                    <input type="text" class="block w-2/3 mx-auto px-4 py-1 border border-gray-100">
                 </div>
-                <label for="confirm-password" class="setting-label">Confirm Password:</label>
-                <div>
-                    <input id="confirm-password" class="setting-input" type="text" placeholder="Re-enter Password">
+
+                <div class="grid grid-cols-2 space-x-2 text-base items-center">
+                    <label for="" class="block text-right setting-text">Confirm Password:</label>
+                    <input type="text" class="block w-2/3 mx-auto px-4 py-1 border border-gray-100">
                 </div>
             </div>
 
@@ -30,5 +33,9 @@
                 <button type="submit" class="primary-button mx-auto">Save Changes</button>
             </div>
         </form>
+
+        <div class="setting-image">
+            <img src="/images/register.png" alt="Photo" class="setting-img">
+        </div>
     </div>
 </div>
