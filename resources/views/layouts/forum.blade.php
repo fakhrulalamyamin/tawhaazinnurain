@@ -1,5 +1,5 @@
 <div class="p-4 sm:ml-64">
-    <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg shadow">
+    <div class="p-4 pb-16 border-2 border-gray-200 border-dashed rounded-lg shadow">
         <div class="flex-col items-center justify-center">
             <form wire:submit.prevent="search" class="mt-10">
 
