@@ -5,6 +5,7 @@
                 <h1 class="level-one-title">Level - 01 Contains</h1>
                 <hr class="divider">
 
+                <!-- MODULES COLLAPSE START -->
                 <div class="grid grid-cols-1 gap-4">
                     <div>
                         <div class="module -mb-2">
@@ -302,12 +303,13 @@
                     </div>
                 </div>
 
+                <!-- INSTRUCTOR START -->
                 <div class="mt-16">
                     <div class="w-full">
                         <h1 class="level-one-title">Instructors</h1>
                         <hr class="divider">
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
                             <div class="instructor">
                                 <a href="#">
                                     <div class="instructor-card">
@@ -365,6 +367,70 @@
                                     </div>
                                 </a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FEEDBACK START -->
+                <div class="mt-16">
+                    <div class="w-full">
+                        <h1 class="level-one-title">Feedback</h1>
+                        <hr class="divider">
+
+                        <div class="feedback">
+                            <a href="#">
+                                <div class="feedback-card">
+                                    <p class="feedback-card-description">
+                                        এই কোর্সটি একটি মানসম্পন্ন কোর্স। ইন্সট্রাকটরগণ অসাধারণ। তারা তাদের বেষ্ট দিয়ে পড়িয়েছেন। আমরা জ্ঞান ভিখারীরা জ্ঞানের দেখা পেয়েছি। এই কোর্সটি আমার জীবন পালটে দিয়েছে। জাযাকাল্লাহ।
+                                    </p>
+                                    <h3 class="feedback-student-name">- ছাত্রের নাম এখানে</h3>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="feedback-card">
+                                    <p class="feedback-card-description">
+                                        এই কোর্সটি একটি মানসম্পন্ন কোর্স। ইন্সট্রাকটরগণ অসাধারণ। তারা তাদের বেষ্ট দিয়ে পড়িয়েছেন। আমরা জ্ঞান ভিখারীরা জ্ঞানের দেখা পেয়েছি। এই কোর্সটি আমার জীবন পালটে দিয়েছে। জাযাকাল্লাহ।
+                                    </p>
+                                    <h3 class="feedback-student-name">- ছাত্রের নাম এখানে</h3>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="feedback-card">
+                                    <p class="feedback-card-description">
+                                        এই কোর্সটি একটি মানসম্পন্ন কোর্স। ইন্সট্রাকটরগণ অসাধারণ। তারা তাদের বেষ্ট দিয়ে পড়িয়েছেন। আমরা জ্ঞান ভিখারীরা জ্ঞানের দেখা পেয়েছি। এই কোর্সটি আমার জীবন পালটে দিয়েছে। জাযাকাল্লাহ।
+                                    </p>
+                                    <h3 class="feedback-student-name">- ছাত্রের নাম এখানে</h3>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="feedback-card">
+                                    <p class="feedback-card-description">
+                                        এই কোর্সটি একটি মানসম্পন্ন কোর্স। ইন্সট্রাকটরগণ অসাধারণ। তারা তাদের বেষ্ট দিয়ে পড়িয়েছেন। আমরা জ্ঞান ভিখারীরা জ্ঞানের দেখা পেয়েছি। এই কোর্সটি আমার জীবন পালটে দিয়েছে। জাযাকাল্লাহ।
+                                    </p>
+                                    <h3 class="feedback-student-name">- ছাত্রের নাম এখানে</h3>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="feedback-card">
+                                    <p class="feedback-card-description">
+                                        এই কোর্সটি একটি মানসম্পন্ন কোর্স। ইন্সট্রাকটরগণ অসাধারণ। তারা তাদের বেষ্ট দিয়ে পড়িয়েছেন। আমরা জ্ঞান ভিখারীরা জ্ঞানের দেখা পেয়েছি। এই কোর্সটি আমার জীবন পালটে দিয়েছে। জাযাকাল্লাহ।
+                                    </p>
+                                    <h3 class="feedback-student-name">- ছাত্রের নাম এখানে</h3>
+                                </div>
+                            </a>
+
+                            <a href="#">
+                                <div class="feedback-card">
+                                    <p class="feedback-card-description">
+                                        এই কোর্সটি একটি মানসম্পন্ন কোর্স। ইন্সট্রাকটরগণ অসাধারণ। তারা তাদের বেষ্ট দিয়ে পড়িয়েছেন। আমরা জ্ঞান ভিখারীরা জ্ঞানের দেখা পেয়েছি। এই কোর্সটি আমার জীবন পালটে দিয়েছে। জাযাকাল্লাহ।
+                                    </p>
+                                    <h3 class="feedback-student-name">- ছাত্রের নাম এখানে</h3>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
