@@ -43,7 +43,7 @@
 
                 <a href="#">
                     <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
-                        <div class="mt-6 w-full flex flex items-center justify-between px-4 py-4 font-medium text-left text-white text-base bg-[#5884B0]/10 rounded-xl hover:bg-[#5884B0] font-siliguri duration-500 transition-all">
+                        <div class="mt-6 w-full flex items-center justify-between px-4 py-4 font-medium text-left text-white text-base bg-[#5884B0]/10 rounded-xl hover:bg-[#5884B0] font-siliguri duration-500 transition-all">
                             <div class="flex items-center gap-2">
                                 @include('components.icons.play')
                                 <p class="font-siliguri">কুরআন তিলাওয়াত - ০১</p>
@@ -55,7 +55,7 @@
                             </div>
                         </div>
 
-                        <div class="mt-6 w-full flex flex items-center justify-between px-4 py-4 font-medium text-left text-white text-base bg-[#5884B0]/10 rounded-xl hover:bg-[#5884B0] font-siliguri duration-500 transition-all">
+                        <div class="mt-6 w-full flex items-center justify-between px-4 py-4 font-medium text-left text-white text-base bg-[#5884B0]/10 rounded-xl hover:bg-[#5884B0] font-siliguri duration-500 transition-all">
                             <div class="flex items-center gap-2">
                                 @include('components.icons.play')
                                 <p class="font-siliguri">সীরাহ - ০১</p>
@@ -67,7 +67,7 @@
                             </div>
                         </div>
 
-                        <div class="mt-6 w-full flex flex items-center justify-between px-4 py-4 font-medium text-left text-white text-base bg-[#5884B0]/10 rounded-xl hover:bg-[#5884B0] font-siliguri duration-500 transition-all">
+                        <div class="mt-6 w-full flex items-center justify-between px-4 py-4 font-medium text-left text-white text-base bg-[#5884B0]/10 rounded-xl hover:bg-[#5884B0] font-siliguri duration-500 transition-all">
                             <div class="flex items-center gap-2">
                                 @include('components.icons.play')
                                 <p class="font-siliguri">দুয়া - ০১</p>
