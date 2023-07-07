@@ -76,7 +76,7 @@
 
                         <div class="w-full" id="accordion-collapse" data-accordion="collapse">
                             <h2 id="accordion-collapse-heading-2">
-                                <button type="button" class="module-btn" data-accordion-target="#accordion-collapse-body-2" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                                <button type="button" class="module-btn" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-1">
                                     <div class="flex">
                                         @include('components.icons.right-arrow')
                                         <span class="module-title">কুরআন তিলাওয়াত</span>
@@ -135,7 +135,7 @@
 
                         <div class="w-full" id="accordion-collapse" data-accordion="collapse">
                             <h2 id="accordion-collapse-heading-3">
-                                <button type="button" class="module-btn" data-accordion-target="#accordion-collapse-body-3" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                                <button type="button" class="module-btn" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-1">
                                     <div class="flex">
                                         @include('components.icons.right-arrow')
                                         <span class="module-title">তাফসীর শিক্ষা কোর্স</span>
@@ -194,7 +194,7 @@
 
                         <div class="w-full" id="accordion-collapse" data-accordion="collapse">
                             <h2 id="accordion-collapse-heading-4">
-                                <button type="button" class="module-btn" data-accordion-target="#accordion-collapse-body-4" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                                <button type="button" class="module-btn" data-accordion-target="#accordion-collapse-body-4" aria-expanded="false" aria-controls="accordion-collapse-body-1">
                                     <div class="flex">
                                         @include('components.icons.right-arrow')
                                         <span class="module-title">রুকিয়াহ</span>
@@ -253,7 +253,7 @@
 
                         <div class="w-full" id="accordion-collapse" data-accordion="collapse">
                             <h2 id="accordion-collapse-heading-5">
-                                <button type="button" class="module-btn" data-accordion-target="#accordion-collapse-body-5" aria-expanded="true" aria-controls="accordion-collapse-body-1">
+                                <button type="button" class="module-btn" data-accordion-target="#accordion-collapse-body-5" aria-expanded="false" aria-controls="accordion-collapse-body-1">
                                     <div class="flex">
                                         @include('components.icons.right-arrow')
                                         <span class="module-title">ইসলামের ইতিহাস</span>
@@ -436,10 +436,82 @@
                 </div>
             </div>
 
-            <div class="level-one-subscribe">Subcribe0 Membership</div>
+            <div class="level-one-subscribe">
+                <div class="subscribe-card">
+                    <div class="subscribe-heading">
+                        <span class="subscribe-span"></span>
+                        <h3 class="subscribe-title">Subscribe to Pro</h3>
+                    </div>
+
+                    <p class="subscribe-description">
+                        A Pro membership gives you unlimited access to all the courses and interactive labs as long as your membership lasts.
+                    </p>
+
+                    <ul>
+                        <li class="subscribe-item">
+                            @include('components.icons.dubble-sign')
+                            <p class="subscribe-item-text">Certification from Taw Haa Zin Nurain Arabic Academy</p>
+                        </li>
+
+                        <li class="subscribe-item">
+                            @include('components.icons.dubble-sign')
+                            <p class="subscribe-item-text">Moneyback guarantee - 14 day full refund</p>
+                        </li>
+
+                        <li class="subscribe-item">
+                            @include('components.icons.dubble-sign')
+                            <p class="subscribe-item-text">Certification exams - to certify your knowledge
+                            </p>
+                        </li>
+
+                        <li class="subscribe-item">
+                            @include('components.icons.dubble-sign')
+                            <p class="subscribe-item-text">Up to date content relevant in 2022
+                            </p>
+                        </li>
+
+                        <li class="subscribe-item">
+                            @include('components.icons.dubble-sign')
+                            <p class="subscribe-item-text">Future content updates for free</p>
+                        </li>
+                    </ul>
 
 
+                    <form action="" class="mt-4 space-y-2">
+                        <div class="flex items-center">
+                            <input id="default-radio-1" type="radio" value="" name="default-radio" class="subscribe-input">
+                            <label for="default-radio-1" class="subscribe-title">One Time Payment (4000 BDT)</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input checked id="default-radio-2" type="radio" value="" name="default-radio" class="subscribe-input">
+                            <label for="default-radio-2" class="subscribe-title">1 Month Cycle (750 BDT/Month)</label>
+                        </div>
+                        <div class="flex items-center">
+                            <input checked id="default-radio-3" type="radio" value="" name="default-radio" class="subscribe-input">
+                            <label for="default-radio-3" class="subscribe-title">2 Month Cycle (1450 BDT/2 Month)</label>
+                        </div>
 
+                        <button class="primary-button w-full">Subscribe to Taw Haa Zin Nurain</button>
+                    </form>
+
+                </div>
+
+                <div class="subscribe-card">
+                    <div class="subscribe-heading">
+                        <span class="subscribe-span"></span>
+                        <h3 class="subscribe-title">Prequisite</h3>
+                    </div>
+
+                    <ul class="mt-2 text-poppins text-base">
+                        <li>
+                            1. এসএসসি পাস হতে হবে।
+                        </li>
+                        <li>2. আরবি হরফ চেনার ক্ষমতা থাকতে হবে।</li>
+                        <li>3. পরিশ্রমী হতে হবে।</li>
+                    </ul>
+
+                </div>
+            </div>
         </div>
     </div>
 
