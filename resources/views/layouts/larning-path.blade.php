@@ -5,7 +5,7 @@
                 <h1 class="level-one-title">Level - 01 Contains</h1>
                 <hr class="divider">
 
-                <div>
+                <div class="grid grid-cols-1 gap-4">
                     <div>
                         <div class="module -mb-2">
                             <div class="module-list">
