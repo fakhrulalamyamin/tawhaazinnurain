@@ -17,7 +17,7 @@
     </head>
     <body class="antialiased">
         <header class="header">
-            <img src="/images/Taw Haa Zin Nurain Hero Image.jpg" alt="" class="header-img">
+            <img src="/images/TawHaaZinNurainHeroImage.jpg" alt="" class="header-img">
 
             <!-- Navigation -->
             @include('components.default-navigation')

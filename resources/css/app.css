@@ -782,3 +782,35 @@
         absolute
         right-0 bottom-0
 }
+
+
+/*-------------------------------------------*/
+/*-------------- Larning Path ---------------*/
+/*-------------------------------------------*/
+.secondary-header-content {
+    @apply
+        w-full flex-col space-y-8
+}
+.larning-content {
+    @apply
+        w-full
+}
+.larning-course {
+    @apply
+    bg-blue-500
+        w-full
+}
+.larning-title {
+    @apply
+        mb-2
+        text-white text-5xl font-poppins font-semibold
+}
+.larning-level {
+    @apply
+        mb-4
+        text-white text-4xl font-poppins font-normal
+}
+.larning-description {
+    @apply
+        text-white text-xl font-siliguri font-normal
+}

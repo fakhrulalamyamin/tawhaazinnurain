@@ -26,6 +26,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/larning-path', function () {
+    return view('larning-path');
+});
+
 Route::get('/all-courses', [AllCourses::class, 'courses'])->name('courses');
 
 Route::get('/dashboard', function () {
