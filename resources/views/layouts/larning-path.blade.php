@@ -301,9 +301,81 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="mt-16">
+                    <div class="w-full">
+                        <h1 class="level-one-title">Instructors</h1>
+                        <hr class="divider">
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="instructor">
+                                <a href="#">
+                                    <div class="instructor-card">
+                                        <div class="instructor-card-image">
+                                            <img src="/images/AbuTawHaaMuhammadAdnan.png" alt="Abu Taw Haa Muhammad Adnan Photos" class="instructor-card-img">
+                                        </div>
+                                        <h1 class="instructor-card-title">আবু ত্ব-হা মুহাম্মাদ আদনান</h1>
+                                    </div>
+                                </a>
+
+                                <a href="#">
+                                    <div class="instructor-card">
+                                        <div class="instructor-card-image">
+                                            <img src="/images/AbuTawHaaMuhammadAdnan.png" alt="Abu Taw Haa Muhammad Adnan Photos" class="instructor-card-img">
+                                        </div>
+                                        <h1 class="instructor-card-title">আবু ত্ব-হা মুহাম্মাদ আদনান</h1>
+                                    </div>
+                                </a>
+
+                                <a href="#">
+                                    <div class="instructor-card">
+                                        <div class="instructor-card-image">
+                                            <img src="/images/AbuTawHaaMuhammadAdnan.png" alt="Abu Taw Haa Muhammad Adnan Photos" class="instructor-card-img">
+                                        </div>
+                                        <h1 class="instructor-card-title">আবু ত্ব-হা মুহাম্মাদ আদনান</h1>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="instructor">
+                                <a href="#">
+                                    <div class="instructor-card">
+                                        <div class="instructor-card-image">
+                                            <img src="/images/fakhrulAlamYamin.png" alt="Abu Taw Haa Muhammad Adnan Photos" class="instructor-card-img">
+                                        </div>
+                                        <h1 class="instructor-card-title">মোঃ ফখরুল আলম ইয়ামিন</h1>
+                                    </div>
+                                </a>
+
+                                <a href="#">
+                                    <div class="instructor-card">
+                                        <div class="instructor-card-image">
+                                            <img src="/images/fakhrulAlamYamin.png" alt="Abu Taw Haa Muhammad Adnan Photos" class="instructor-card-img">
+                                        </div>
+                                        <h1 class="instructor-card-title">মোঃ ফখরুল আলম ইয়ামিন</h1>
+                                    </div>
+                                </a>
+
+                                <a href="#">
+                                    <div class="instructor-card">
+                                        <div class="instructor-card-image">
+                                            <img src="/images/fakhrulAlamYamin.png" alt="Abu Taw Haa Muhammad Adnan Photos" class="instructor-card-img">
+                                        </div>
+                                        <h1 class="instructor-card-title">মোঃ ফখরুল আলম ইয়ামিন</h1>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="level-one-subscribe">Subcribe0 Membership</div>
+
+
+
         </div>
     </div>
+
+
 </div>

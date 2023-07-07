@@ -909,3 +909,30 @@
     @apply
         text-base font-siliguri text-black
 }
+
+/*------------- Course Instructor -----------------*/
+.instructor {
+    @apply
+        flex flex-col gap-4
+}
+.instructor-card {
+    @apply
+        flex items-center gap-8
+        bg-white px-4 py-2
+        shadow-md rounded
+
+        hover:shadow duration-500 transition
+}
+.instructor-card-image {
+    @apply
+        w-16 h-16
+}
+.instructor-card-img {
+    @apply
+        w-full h-full
+        rounded-full
+}
+.instructor-card-title {
+    @apply
+        text-xl font-poppins font-medium
+}
