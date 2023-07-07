@@ -133,7 +133,7 @@
 .hero {
     @apply
         text-center
-        w-full min-h-screen
+        w-full min-h-screen pt-16
         flex flex-col items-center justify-center
 
         md:text-left md:items-start
@@ -789,15 +789,12 @@
 /*-------------------------------------------*/
 .secondary-header-content {
     @apply
-        w-full flex-col space-y-8
+        w-full flex-row space-y-8 items-center
+
+        lg:flex
 }
 .larning-content {
     @apply
-        w-full
-}
-.larning-course {
-    @apply
-    bg-blue-500
         w-full
 }
 .larning-title {
@@ -813,4 +810,28 @@
 .larning-description {
     @apply
         text-white text-xl font-siliguri font-normal
+}
+
+.larning-course {
+    @apply
+        w-full grid grid-cols-1 gap-4
+        md:grid-cols-3
+        lg:grid-cols-2
+}
+.larning-course-card {
+    @apply
+        relative
+        py-16 w-full text-white bg-primary-0 rounded
+        flex items-center justify-center
+}
+.larning-course-card-title {
+    @apply
+        text-2xl font-siliguri font-medium
+}
+.larning-course-card-span {
+    @apply
+        absolute
+        right-2
+        top-2
+        px-2 py-1 text-xs font-poppins font-medium bg-green-400 rounded-full
 }

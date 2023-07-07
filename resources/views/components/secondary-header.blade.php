@@ -15,6 +15,36 @@
             </p>
         </div>
 
-        <div class="larning-course">Right</div>
+        <div class="larning-course">
+            <div class="larning-course-card">
+                <h1 class="larning-course-card-title">কুরআন তিলাওয়াত</h1>
+                <span class="larning-course-card-span">Free</span>
+            </div>
+
+            <div class="larning-course-card">
+                <h1 class="larning-course-card-title">কুরআন তিলাওয়াত</h1>
+                <span class="larning-course-card-span">Free</span>
+            </div>
+
+            <div class="larning-course-card">
+                <h1 class="larning-course-card-title">কুরআন তিলাওয়াত</h1>
+                <span class="larning-course-card-span">Free</span>
+            </div>
+
+            <div class="larning-course-card">
+                <h1 class="larning-course-card-title">কুরআন তিলাওয়াত</h1>
+                <span class="larning-course-card-span">Free</span>
+            </div>
+
+            <div class="larning-course-card">
+                <h1 class="larning-course-card-title">কুরআন তিলাওয়াত</h1>
+                <span class="larning-course-card-span">Free</span>
+            </div>
+
+            <div class="larning-course-card">
+                <h1 class="larning-course-card-title">কুরআন তিলাওয়াত</h1>
+                <span class="larning-course-card-span">Free</span>
+            </div>
+        </div>
     </div>
 </div>
