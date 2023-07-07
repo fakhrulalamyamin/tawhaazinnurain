@@ -789,9 +789,10 @@
 /*-------------------------------------------*/
 .secondary-header-content {
     @apply
+        py-16
         w-full flex-row space-y-8 items-center
 
-        lg:flex
+        md:py-0 lg:flex
 }
 .larning-content {
     @apply
