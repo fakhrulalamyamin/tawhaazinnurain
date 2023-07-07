@@ -869,13 +869,16 @@
         w-full flex items-center justify-between
 }
 .module-list {
-
+    @apply
+        font-poppins text-sm
 }
 .module-list-heading {
-
+    @apply
+        font-medium
 }
 .module-list-details {
-
+    @apply
+        font-normal
 }
 
 .module-btn {
