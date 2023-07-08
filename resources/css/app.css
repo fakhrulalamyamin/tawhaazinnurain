@@ -957,7 +957,7 @@
 .level-one-subscribe {
     @apply
         w-full
-        font-poppins space-y-6
+        font-poppins space-y-6 flex-row
         md:w-1/3
 }
 .subscribe-card {
