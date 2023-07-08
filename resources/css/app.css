@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.loginPage {
+    @apply
+        w-full h-screen bg-red-400
+        flex items-center justify-center
+}
+
 .default-container {
     @apply
         container px-6 mx-auto
@@ -802,7 +808,7 @@
 .larning-title {
     @apply
         mb-2
-        text-white text-5xl font-poppins font-semibold
+        text-white text-5xl font-poppins font-semibold leading-[1.2]
 }
 .larning-level {
     @apply
